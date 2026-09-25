@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "scope": "SFT-only; no historical repository replay",
+  "checks": {
+    "SFT-ORIG-01": {
+      "H": 20,
+      "hard_pass": true,
+      "H1": true,
+      "H2": true,
+      "H3": true,
+      "H4": true,
+      "H5": true,
+      "estimated_seconds": 34.0,
+      "line_characters": 63,
+      "line_lengths": [
+        5,
+        11,
+        14,
+        11,
+        12,
+        10
+      ],
+      "maximum_line_characters": 14,
+      "action_beats": 8,
+      "target_sha256": "86b0eea2aea1e3919d8ec31a64540f129816c366a9f48fc7af6e24fa133c9edb",
+      "input_sha256": "d34383aea318a16433083d0a8f4250aa78b401ddabc952da0e2fb249e48471d2"
+    },
+    "SFT-ORIG-02": {
+      "H": 20,
+      "hard_pass": true,
+      "H1": true,
+      "H2": true,
+      "H3": true,
+      "H4": true,
+      "H5": true,
+      "estimated_seconds": 34.833333,
+      "line_characters": 78,
+      "line_lengths": [
+        7,
+        18,
+        12,
+        14,
+        14,
+        13
+      ],
+      "maximum_line_characters": 18,
+      "action_beats": 7,
+      "target_sha256": "2512c90a49b6768a8085389c81f8aa4db091b7de353225406e1a84af79eb7e1b",
+      "input_sha256": "e6435ae1f413df14c9db98c43a2a569c3d6d9c59efd422aff724aedc3a1e973b"
+    }
+  }
+}

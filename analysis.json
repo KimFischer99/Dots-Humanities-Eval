@@ -1,0 +1,1038 @@
+{
+  "schema_version": 1,
+  "source_commit": "bf33da8d35715602c7daab0aed53ba2c4733d698",
+  "source_files": [
+    "frozen/scores.json",
+    "frozen/human/review.json",
+    "frozen/mechanical_checks.json",
+    "frozen/metadata/review_plan.json",
+    "usage/summary.json"
+  ],
+  "provenance": "对固定提交中的公开分数表重新计算；并非重新生成或重新评分。逐例秒数按原报告精度记录。",
+  "models": [
+    {
+      "id": "M1",
+      "name": "MiMo-V2.6-Pro",
+      "scored": 5,
+      "primary": 10,
+      "hard_pass": 9,
+      "family_count": 4,
+      "mean_H": 20,
+      "human_mean": 73.5,
+      "human_pass": 2,
+      "human_dimensions": {
+        "F": 3,
+        "D": 2.4,
+        "L": 2.6
+      },
+      "human_family_mean": 71.875,
+      "judge_mean": 86.0,
+      "judge_pass": 4,
+      "judge_dimensions": {
+        "F": 3,
+        "D": 3.4,
+        "L": 3.6
+      },
+      "judge_family_mean": 85.3125
+    },
+    {
+      "id": "M2",
+      "name": "Dots3-note-prev",
+      "scored": 5,
+      "primary": 10,
+      "hard_pass": 5,
+      "family_count": 5,
+      "mean_H": 16.8,
+      "human_mean": 70.8,
+      "human_pass": 1,
+      "human_dimensions": {
+        "F": 3,
+        "D": 2.6,
+        "L": 2.4
+      },
+      "human_family_mean": 70.8,
+      "judge_mean": 83.3,
+      "judge_pass": 1,
+      "judge_dimensions": {
+        "F": 3.2,
+        "D": 3.4,
+        "L": 3.4
+      },
+      "judge_family_mean": 83.3
+    },
+    {
+      "id": "M3",
+      "name": "Qwen3.8-27B",
+      "scored": 5,
+      "primary": 10,
+      "hard_pass": 10,
+      "family_count": 4,
+      "mean_H": 20,
+      "human_mean": 68.0,
+      "human_pass": 1,
+      "human_dimensions": {
+        "F": 2.6,
+        "D": 2.2,
+        "L": 2.4
+      },
+      "human_family_mean": 67.5,
+      "judge_mean": 77.0,
+      "judge_pass": 3,
+      "judge_dimensions": {
+        "F": 2.8,
+        "D": 2.8,
+        "L": 3
+      },
+      "judge_family_mean": 78.75
+    }
+  ],
+  "rows": [
+    {
+      "run_id": "M1.C01",
+      "model": "M1",
+      "case_id": "C01",
+      "H": 20,
+      "human": {
+        "F": 3,
+        "D": 2,
+        "L": 3
+      },
+      "judge": {
+        "F": 3,
+        "D": 3,
+        "L": 4
+      },
+      "phase": "dev",
+      "family": "KAF",
+      "human_score": 72.5,
+      "human_pass": false,
+      "judge_score": 85.0,
+      "judge_pass": true,
+      "delta": 12.5
+    },
+    {
+      "run_id": "M1.C02",
+      "model": "M1",
+      "case_id": "C02",
+      "H": 20,
+      "human": {
+        "F": 4,
+        "D": 3,
+        "L": 3
+      },
+      "judge": {
+        "F": 3,
+        "D": 4,
+        "L": 4
+      },
+      "phase": "dev",
+      "family": "KAF",
+      "human_score": 87.5,
+      "human_pass": true,
+      "judge_score": 92.5,
+      "judge_pass": true,
+      "delta": 5.0
+    },
+    {
+      "run_id": "M1.C07",
+      "model": "M1",
+      "case_id": "C07",
+      "H": 20,
+      "human": {
+        "F": 2,
+        "D": 1,
+        "L": 1
+      },
+      "judge": {
+        "F": 3,
+        "D": 3,
+        "L": 3
+      },
+      "phase": "validation",
+      "family": "LI",
+      "human_score": 47.5,
+      "human_pass": false,
+      "judge_score": 80.0,
+      "judge_pass": true,
+      "delta": 32.5
+    },
+    {
+      "run_id": "M1.C08",
+      "model": "M1",
+      "case_id": "C08",
+      "H": 20,
+      "human": {
+        "F": 3,
+        "D": 2,
+        "L": 2
+      },
+      "judge": {
+        "F": 2,
+        "D": 3,
+        "L": 3
+      },
+      "phase": "rest",
+      "family": "ODY",
+      "human_score": 67.5,
+      "human_pass": false,
+      "judge_score": 72.5,
+      "judge_pass": false,
+      "delta": 5.0
+    },
+    {
+      "run_id": "M1.C10",
+      "model": "M1",
+      "case_id": "C10",
+      "H": 20,
+      "human": {
+        "F": 3,
+        "D": 4,
+        "L": 4
+      },
+      "judge": {
+        "F": 4,
+        "D": 4,
+        "L": 4
+      },
+      "phase": "rest",
+      "family": "WEB",
+      "human_score": 92.5,
+      "human_pass": true,
+      "judge_score": 100.0,
+      "judge_pass": true,
+      "delta": 7.5
+    },
+    {
+      "run_id": "M2.C03",
+      "model": "M2",
+      "case_id": "C03",
+      "H": 12,
+      "human": {
+        "F": 4,
+        "D": 3,
+        "L": 3
+      },
+      "judge": {
+        "F": 4,
+        "D": 4,
+        "L": 4
+      },
+      "phase": "validation",
+      "family": "RED",
+      "human_score": 79.5,
+      "human_pass": false,
+      "judge_score": 92.0,
+      "judge_pass": false,
+      "delta": 12.5
+    },
+    {
+      "run_id": "M2.C07",
+      "model": "M2",
+      "case_id": "C07",
+      "H": 20,
+      "human": {
+        "F": 1,
+        "D": 2,
+        "L": 1
+      },
+      "judge": {
+        "F": 2,
+        "D": 3,
+        "L": 3
+      },
+      "phase": "validation",
+      "family": "LI",
+      "human_score": 47.5,
+      "human_pass": false,
+      "judge_score": 72.5,
+      "judge_pass": false,
+      "delta": 25.0
+    },
+    {
+      "run_id": "M2.C08",
+      "model": "M2",
+      "case_id": "C08",
+      "H": 12,
+      "human": {
+        "F": 3,
+        "D": 2,
+        "L": 2
+      },
+      "judge": {
+        "F": 4,
+        "D": 4,
+        "L": 3
+      },
+      "phase": "rest",
+      "family": "ODY",
+      "human_score": 59.5,
+      "human_pass": false,
+      "judge_score": 87.0,
+      "judge_pass": false,
+      "delta": 27.5
+    },
+    {
+      "run_id": "M2.C09",
+      "model": "M2",
+      "case_id": "C09",
+      "H": 20,
+      "human": {
+        "F": 4,
+        "D": 3,
+        "L": 4
+      },
+      "judge": {
+        "F": 3,
+        "D": 2,
+        "L": 3
+      },
+      "phase": "rest",
+      "family": "GHOST",
+      "human_score": 92.5,
+      "human_pass": true,
+      "judge_score": 72.5,
+      "judge_pass": false,
+      "delta": -20.0
+    },
+    {
+      "run_id": "M2.C10",
+      "model": "M2",
+      "case_id": "C10",
+      "H": 20,
+      "human": {
+        "F": 3,
+        "D": 3,
+        "L": 2
+      },
+      "judge": {
+        "F": 3,
+        "D": 4,
+        "L": 4
+      },
+      "phase": "rest",
+      "family": "WEB",
+      "human_score": 75.0,
+      "human_pass": false,
+      "judge_score": 92.5,
+      "judge_pass": true,
+      "delta": 17.5
+    },
+    {
+      "run_id": "M3.C02",
+      "model": "M3",
+      "case_id": "C02",
+      "H": 20,
+      "human": {
+        "F": 3,
+        "D": 2,
+        "L": 3
+      },
+      "judge": {
+        "F": 3,
+        "D": 3,
+        "L": 3
+      },
+      "phase": "dev",
+      "family": "KAF",
+      "human_score": 72.5,
+      "human_pass": false,
+      "judge_score": 80.0,
+      "judge_pass": true,
+      "delta": 7.5
+    },
+    {
+      "run_id": "M3.C03",
+      "model": "M3",
+      "case_id": "C03",
+      "H": 20,
+      "human": {
+        "F": 2,
+        "D": 2,
+        "L": 3
+      },
+      "judge": {
+        "F": 2,
+        "D": 3,
+        "L": 3
+      },
+      "phase": "validation",
+      "family": "RED",
+      "human_score": 65.0,
+      "human_pass": false,
+      "judge_score": 72.5,
+      "judge_pass": false,
+      "delta": 7.5
+    },
+    {
+      "run_id": "M3.C04",
+      "model": "M3",
+      "case_id": "C04",
+      "H": 20,
+      "human": {
+        "F": 3,
+        "D": 3,
+        "L": 2
+      },
+      "judge": {
+        "F": 3,
+        "D": 2,
+        "L": 2
+      },
+      "phase": "validation",
+      "family": "RED",
+      "human_score": 75.0,
+      "human_pass": false,
+      "judge_score": 67.5,
+      "judge_pass": false,
+      "delta": -7.5
+    },
+    {
+      "run_id": "M3.C07",
+      "model": "M3",
+      "case_id": "C07",
+      "H": 20,
+      "human": {
+        "F": 2,
+        "D": 1,
+        "L": 1
+      },
+      "judge": {
+        "F": 3,
+        "D": 3,
+        "L": 3
+      },
+      "phase": "validation",
+      "family": "LI",
+      "human_score": 47.5,
+      "human_pass": false,
+      "judge_score": 80.0,
+      "judge_pass": true,
+      "delta": 32.5
+    },
+    {
+      "run_id": "M3.C10",
+      "model": "M3",
+      "case_id": "C10",
+      "H": 20,
+      "human": {
+        "F": 3,
+        "D": 3,
+        "L": 3
+      },
+      "judge": {
+        "F": 3,
+        "D": 3,
+        "L": 4
+      },
+      "phase": "rest",
+      "family": "WEB",
+      "human_score": 80.0,
+      "human_pass": true,
+      "judge_score": 85.0,
+      "judge_pass": true,
+      "delta": 5.0
+    }
+  ],
+  "phases": [
+    {
+      "phase": "dev",
+      "n": 3,
+      "cases": 2,
+      "families": 1,
+      "dimension_n": 9,
+      "MAE": 0.6666666666666666,
+      "within_one_count": 9,
+      "total_MAE": 8.333333333333334,
+      "bias": 8.333333333333334
+    },
+    {
+      "phase": "validation",
+      "n": 6,
+      "cases": 3,
+      "families": 2,
+      "dimension_n": 18,
+      "MAE": 1,
+      "within_one_count": 13,
+      "total_MAE": 19.583333333333332,
+      "bias": 17.083333333333332
+    },
+    {
+      "phase": "rest",
+      "n": 6,
+      "cases": 3,
+      "families": 3,
+      "dimension_n": 18,
+      "MAE": 0.8333333333333334,
+      "within_one_count": 16,
+      "total_MAE": 13.75,
+      "bias": 7.083333333333333
+    },
+    {
+      "phase": "all",
+      "n": 15,
+      "cases": 8,
+      "families": 6,
+      "dimension_n": 45,
+      "MAE": 0.8666666666666667,
+      "within_one_count": 38,
+      "total_MAE": 15.0,
+      "bias": 11.333333333333334
+    }
+  ],
+  "pairwise_common_case_diagnostics": [
+    {
+      "a": "M1",
+      "b": "M2",
+      "cases": [
+        "C07",
+        "C08",
+        "C10"
+      ],
+      "n": 3,
+      "judge_delta": 0.16666666666666666,
+      "human_delta": 8.5,
+      "label": "事后共同题目诊断，不替换正式分数"
+    },
+    {
+      "a": "M1",
+      "b": "M3",
+      "cases": [
+        "C02",
+        "C07",
+        "C10"
+      ],
+      "n": 3,
+      "judge_delta": 9.166666666666666,
+      "human_delta": 9.166666666666666,
+      "label": "事后共同题目诊断，不替换正式分数"
+    },
+    {
+      "a": "M2",
+      "b": "M3",
+      "cases": [
+        "C03",
+        "C07",
+        "C10"
+      ],
+      "n": 3,
+      "judge_delta": 6.5,
+      "human_delta": 3.1666666666666665,
+      "label": "事后共同题目诊断，不替换正式分数"
+    }
+  ],
+  "common_all_cases": [
+    "C07",
+    "C10"
+  ],
+  "common_all_means": {
+    "M1": {
+      "human": 70.0,
+      "judge": 90.0
+    },
+    "M2": {
+      "human": 61.25,
+      "judge": 82.5
+    },
+    "M3": {
+      "human": 63.75,
+      "judge": 82.5
+    }
+  },
+  "hard_checks": [
+    {
+      "run_id": "M1.C01",
+      "model": "M1",
+      "case_id": "C01",
+      "H": 20,
+      "seconds": 83.83,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M1.C02",
+      "model": "M1",
+      "case_id": "C02",
+      "H": 20,
+      "seconds": 88.5,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M1.C03",
+      "model": "M1",
+      "case_id": "C03",
+      "H": 20,
+      "seconds": 99.5,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M1.C04",
+      "model": "M1",
+      "case_id": "C04",
+      "H": 0,
+      "seconds": null,
+      "failed": [
+        "H1"
+      ],
+      "unavailable": [
+        "H2",
+        "H3",
+        "H4",
+        "H5"
+      ],
+      "scored": false
+    },
+    {
+      "run_id": "M1.C05",
+      "model": "M1",
+      "case_id": "C05",
+      "H": 20,
+      "seconds": 99.39,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M1.C06",
+      "model": "M1",
+      "case_id": "C06",
+      "H": 20,
+      "seconds": 97.5,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M1.C07",
+      "model": "M1",
+      "case_id": "C07",
+      "H": 20,
+      "seconds": 62.44,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M1.C08",
+      "model": "M1",
+      "case_id": "C08",
+      "H": 20,
+      "seconds": 91.06,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M1.C09",
+      "model": "M1",
+      "case_id": "C09",
+      "H": 20,
+      "seconds": 87.72,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M1.C10",
+      "model": "M1",
+      "case_id": "C10",
+      "H": 20,
+      "seconds": 100.78,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M2.C01",
+      "model": "M2",
+      "case_id": "C01",
+      "H": 20,
+      "seconds": 99,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M2.C02",
+      "model": "M2",
+      "case_id": "C02",
+      "H": 20,
+      "seconds": 79.61,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M2.C03",
+      "model": "M2",
+      "case_id": "C03",
+      "H": 12,
+      "seconds": 107.39,
+      "failed": [
+        "H3",
+        "H4"
+      ],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M2.C04",
+      "model": "M2",
+      "case_id": "C04",
+      "H": 16,
+      "seconds": 154.83,
+      "failed": [
+        "H2"
+      ],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M2.C05",
+      "model": "M2",
+      "case_id": "C05",
+      "H": 12,
+      "seconds": 123.33,
+      "failed": [
+        "H3",
+        "H4"
+      ],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M2.C06",
+      "model": "M2",
+      "case_id": "C06",
+      "H": 12,
+      "seconds": 252.06,
+      "failed": [
+        "H3",
+        "H4"
+      ],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M2.C07",
+      "model": "M2",
+      "case_id": "C07",
+      "H": 20,
+      "seconds": 64.44,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M2.C08",
+      "model": "M2",
+      "case_id": "C08",
+      "H": 12,
+      "seconds": 117.11,
+      "failed": [
+        "H3",
+        "H4"
+      ],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M2.C09",
+      "model": "M2",
+      "case_id": "C09",
+      "H": 20,
+      "seconds": 85.94,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M2.C10",
+      "model": "M2",
+      "case_id": "C10",
+      "H": 20,
+      "seconds": 103.11,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M3.C01",
+      "model": "M3",
+      "case_id": "C01",
+      "H": 20,
+      "seconds": 98.39,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M3.C02",
+      "model": "M3",
+      "case_id": "C02",
+      "H": 20,
+      "seconds": 96,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M3.C03",
+      "model": "M3",
+      "case_id": "C03",
+      "H": 20,
+      "seconds": 98.39,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M3.C04",
+      "model": "M3",
+      "case_id": "C04",
+      "H": 20,
+      "seconds": 150.33,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M3.C05",
+      "model": "M3",
+      "case_id": "C05",
+      "H": 20,
+      "seconds": 90.67,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M3.C06",
+      "model": "M3",
+      "case_id": "C06",
+      "H": 20,
+      "seconds": 86.89,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M3.C07",
+      "model": "M3",
+      "case_id": "C07",
+      "H": 20,
+      "seconds": 61.89,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    },
+    {
+      "run_id": "M3.C08",
+      "model": "M3",
+      "case_id": "C08",
+      "H": 20,
+      "seconds": 91.89,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M3.C09",
+      "model": "M3",
+      "case_id": "C09",
+      "H": 20,
+      "seconds": 89.67,
+      "failed": [],
+      "unavailable": [],
+      "scored": false
+    },
+    {
+      "run_id": "M3.C10",
+      "model": "M3",
+      "case_id": "C10",
+      "H": 20,
+      "seconds": 95.89,
+      "failed": [],
+      "unavailable": [],
+      "scored": true
+    }
+  ],
+  "cases": [
+    {
+      "id": "C01",
+      "source": "《变形记》节选",
+      "seconds": 90,
+      "interior": "禁止",
+      "family": "KAF"
+    },
+    {
+      "id": "C02",
+      "source": "同 C01",
+      "seconds": 90,
+      "interior": "至多两条",
+      "family": "KAF"
+    },
+    {
+      "id": "C03",
+      "source": "《红楼梦》节选",
+      "seconds": 90,
+      "interior": "禁止",
+      "family": "RED"
+    },
+    {
+      "id": "C04",
+      "source": "同 C03",
+      "seconds": 150,
+      "interior": "禁止",
+      "family": "RED"
+    },
+    {
+      "id": "C05",
+      "source": "《左传》节选",
+      "seconds": 90,
+      "interior": "禁止",
+      "family": "ZUO"
+    },
+    {
+      "id": "C06",
+      "source": "《哈姆莱特》中译节选",
+      "seconds": 90,
+      "interior": "禁止",
+      "family": "HAM_ZH"
+    },
+    {
+      "id": "C07",
+      "source": "李白长诗节选",
+      "seconds": 60,
+      "interior": "禁止",
+      "family": "LI"
+    },
+    {
+      "id": "C08",
+      "source": "《奥德赛》节选",
+      "seconds": 90,
+      "interior": "禁止",
+      "family": "ODY"
+    },
+    {
+      "id": "C09",
+      "source": "《宗定伯卖鬼》用户版本",
+      "seconds": 90,
+      "interior": "禁止",
+      "family": "GHOST"
+    },
+    {
+      "id": "C10",
+      "source": "《倒计时4659》节选",
+      "seconds": 90,
+      "interior": "禁止",
+      "family": "WEB"
+    }
+  ],
+  "formal_usage": [
+    {
+      "id": "M1",
+      "calls": 18,
+      "input": 95286,
+      "output": 170725,
+      "total": 266011,
+      "reasoning": 152923,
+      "primary_total": 129234
+    },
+    {
+      "id": "M2",
+      "calls": 15,
+      "input": 64647,
+      "output": 212697,
+      "total": 277344,
+      "reasoning": null,
+      "primary_total": 155097
+    },
+    {
+      "id": "M3",
+      "calls": 19,
+      "input": 187117,
+      "output": 265940,
+      "total": 453057,
+      "reasoning": 245470,
+      "primary_total": 211951
+    },
+    {
+      "id": "J",
+      "calls": 15,
+      "input": 45473,
+      "output": 53863,
+      "total": 99336,
+      "reasoning": 53503,
+      "primary_total": null
+    }
+  ],
+  "formal_tokens": 1095748,
+  "known_process_tokens": 1143636,
+  "unknown_usage_calls": 1,
+  "human_dimension_means": {
+    "F": 2.8666666666666667,
+    "D": 2.4,
+    "L": 2.466666666666667
+  },
+  "revised_sft_checks": [
+    {
+      "H": 20,
+      "hard_pass": true,
+      "H1": true,
+      "H2": true,
+      "H3": true,
+      "H4": true,
+      "H5": true,
+      "line_characters": 63,
+      "line_lengths": [
+        5,
+        11,
+        14,
+        11,
+        12,
+        10
+      ],
+      "maximum_line_characters": 14,
+      "action_beats": 8,
+      "estimated_seconds": 34.0,
+      "target_seconds": 35,
+      "acceptable_interval_seconds": [
+        29.75,
+        40.25
+      ],
+      "check_implementation": "按冻结H1至H5契约离线检查；完整仓库核验时与原eval.grade交叉检查。"
+    },
+    {
+      "H": 20,
+      "hard_pass": true,
+      "H1": true,
+      "H2": true,
+      "H3": true,
+      "H4": true,
+      "H5": true,
+      "line_characters": 78,
+      "line_lengths": [
+        7,
+        18,
+        12,
+        14,
+        14,
+        13
+      ],
+      "maximum_line_characters": 18,
+      "action_beats": 7,
+      "estimated_seconds": 34.833333,
+      "target_seconds": 35,
+      "acceptable_interval_seconds": [
+        29.75,
+        40.25
+      ],
+      "check_implementation": "按冻结H1至H5契约离线检查；完整仓库核验时与原eval.grade交叉检查。"
+    }
+  ]
+}
