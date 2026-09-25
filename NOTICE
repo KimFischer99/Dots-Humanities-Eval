@@ -1,0 +1,11 @@
+This package adapts concepts and instructions from eternityspring/shuohao-skills,
+novel-script, revision ca1c30be78bde70fa84d3817453c71e0ef25b751 (Apache-2.0).
+Upstream author: Wesley Wang / eternityspring.
+Upstream: https://github.com/eternityspring/shuohao-skills
+Modified 2026-09-24: standalone constrained literary adaptation; one source and one
+implicit episode; remove outline/art dependencies, forced hooks, cascading
+production and self-iteration; separate evaluator-only references and provenance.
+SKILL.md is modified/adapted, not the unmodified upstream skill.
+This notice and LICENSE are distribution metadata; never inject them into prompts.
+Source literary texts are supplied by the user and are NOT relicensed by this file.
+Pi is a separate MIT-licensed runtime; retain its bundled license when building.

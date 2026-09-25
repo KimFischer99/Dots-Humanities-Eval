@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-09-25T07:25:04.343877+00:00",
+  "reviewer": "Anoki",
+  "hashes": {
+    "dataset.json": "e1d73fb4470f3649bed2d243b08ec30b4e3c39fd6c57f646dc5e2754115a0a4a",
+    "rubric.json": "7671cae32dab92941032174daeda7bddd597ead9d11c3cc6084113fd15cfc9b6",
+    "SKILL.md": "9dbe65b1d2ecae269e64ca0b08b4c470ca64eac4a9118f93eeb8a9fd63dbc53e",
+    "config.json": "652a4c80ca0c83715c30c08c1417ef7c0af427f633b673cf66e8994b7bdef4fa",
+    "eval.py": "4115664a6170648bc577210bb9aaa5925e36cf7626d556d91c821b256ac36202",
+    "runtime.py": "b654b8f53f542b113c02dedce2b28da1d981393173e124f3799c2f20bb36e738",
+    "Dockerfile": "f361457bbf73324a24f8ee3f89a4cfb1b8f71bb13745ef8984135765aaf3749b"
+  },
+  "image_id": "sha256:1b64338ac3acf40d4a5513e85a1c184af60bbecaf68e99321cdc246af413215b",
+  "runtime_build": {
+    "built_at": "2026-09-25T07:07:59.004062+00:00",
+    "base_digest": "python@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e",
+    "pi_sha256": "80d78dd62d50049a006b981d994c61255bcc10e730b0c278d4ea0a755909764c",
+    "image_id": "sha256:1b64338ac3acf40d4a5513e85a1c184af60bbecaf68e99321cdc246af413215b",
+    "platform": "linux/amd64",
+    "docker_server_version": "29.5.2",
+    "host_python": "3.14.4 (v3.14.4:23116f998f6, Apr  7 2026, 09:45:22) [Clang 17.0.0 (clang-1700.6.4.2)]",
+    "runtime_hashes": {
+      "runtime.py": "b654b8f53f542b113c02dedce2b28da1d981393173e124f3799c2f20bb36e738",
+      "eval.py": "4115664a6170648bc577210bb9aaa5925e36cf7626d556d91c821b256ac36202"
+    }
+  },
+  "probe_sha256": "73466ec104e289758878b230115a60162ddc696b3b3ee747e6549fb3ff05d6e0",
+  "materials_and_rubric_approved": true,
+  "initial_judge_hash": "b303fe717cfbe0a7e23be2d7accf94c030e4e648baebe816524f946bcf0f0e7c",
+  "human_assignment_sha256": "f986cc02b219858022cb8421399ec3b74f9115e093d318a338a5012f46b5e51b"
+}

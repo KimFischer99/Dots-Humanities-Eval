@@ -1,0 +1,30 @@
+[
+  {
+    "run_id": "judge-dev-B1228098ddadc-b303fe717c",
+    "reason": "superseded Judge contract; not a current score",
+    "status": "infrastructure_failure",
+    "raw_output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "usage_available_calls": 0
+  },
+  {
+    "run_id": "judge-dev-B1228098ddadc-b303fe717c-attempt2",
+    "reason": "superseded Judge contract; not a current score",
+    "status": "completed",
+    "raw_output_sha256": "8b54753b48a7f56b1ea3ec07674467da8e1fc2ecad2922f5c0e868b1f102039e",
+    "usage_available_calls": 1
+  },
+  {
+    "run_id": "judge-dev-Be24a0b554af0-b303fe717c",
+    "reason": "superseded Judge contract; not a current score",
+    "status": "completed",
+    "raw_output_sha256": "80dd3b691c74ad3ce130f1029103ec56cfb1c60131b48c01f50e51142979e545",
+    "usage_available_calls": 1
+  },
+  {
+    "run_id": "judge-dev-Bd20ff642e769-b303fe717c",
+    "reason": "superseded Judge contract; not a current score",
+    "status": "completed",
+    "raw_output_sha256": "31581f17e96238a6d0efefc505d55f29843573f1ba595cfd1d10198f1a97c53f",
+    "usage_available_calls": 1
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "selection_method": "stratified_random_without_replacement",
+  "selection_seed": 260939,
+  "population_size": 30,
+  "sample_size": 15,
+  "per_model": {
+    "M1": 5,
+    "M2": 5,
+    "M3": 5
+  },
+  "source_split_to_judge_phase": {
+    "dev": "dev",
+    "validation": "validation",
+    "extension": "rest"
+  },
+  "human_run_ids": [
+    "M1.C01",
+    "M1.C02",
+    "M1.C07",
+    "M1.C08",
+    "M1.C10",
+    "M2.C03",
+    "M2.C07",
+    "M2.C08",
+    "M2.C09",
+    "M2.C10",
+    "M3.C02",
+    "M3.C03",
+    "M3.C04",
+    "M3.C07",
+    "M3.C10"
+  ],
+  "judge_dev_run_ids": [
+    "M1.C01",
+    "M1.C02",
+    "M3.C02"
+  ],
+  "judge_validation_run_ids": [
+    "M1.C07",
+    "M2.C03",
+    "M2.C07",
+    "M3.C03",
+    "M3.C04",
+    "M3.C07"
+  ],
+  "judge_rest_run_ids": [
+    "M1.C08",
+    "M1.C10",
+    "M2.C08",
+    "M2.C09",
+    "M2.C10",
+    "M3.C10"
+  ],
+  "parent_freeze_sha256": "afbd6b739a32d8a233b9af43c7fdeb729a113c225e2e2524ad659a1e926dc18a"
+}

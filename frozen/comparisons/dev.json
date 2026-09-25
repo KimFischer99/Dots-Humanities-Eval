@@ -1,0 +1,112 @@
+{
+  "phase": "dev",
+  "judge_hash": "9208fde1645ea9fe55a18b10703cb850ba5f097a8ced2d3ccfce008ff6ce35fd",
+  "status": "complete",
+  "rows": [
+    {
+      "run_id": "M1.C01",
+      "case_id": "C01",
+      "model": "M1",
+      "dimension": "F",
+      "human": 3,
+      "judge": 3,
+      "absolute_difference": 0
+    },
+    {
+      "run_id": "M1.C01",
+      "case_id": "C01",
+      "model": "M1",
+      "dimension": "D",
+      "human": 2,
+      "judge": 3,
+      "absolute_difference": 1
+    },
+    {
+      "run_id": "M1.C01",
+      "case_id": "C01",
+      "model": "M1",
+      "dimension": "L",
+      "human": 3,
+      "judge": 4,
+      "absolute_difference": 1
+    },
+    {
+      "run_id": "M1.C02",
+      "case_id": "C02",
+      "model": "M1",
+      "dimension": "F",
+      "human": 4,
+      "judge": 3,
+      "absolute_difference": 1
+    },
+    {
+      "run_id": "M1.C02",
+      "case_id": "C02",
+      "model": "M1",
+      "dimension": "D",
+      "human": 3,
+      "judge": 4,
+      "absolute_difference": 1
+    },
+    {
+      "run_id": "M1.C02",
+      "case_id": "C02",
+      "model": "M1",
+      "dimension": "L",
+      "human": 3,
+      "judge": 4,
+      "absolute_difference": 1
+    },
+    {
+      "run_id": "M3.C02",
+      "case_id": "C02",
+      "model": "M3",
+      "dimension": "F",
+      "human": 3,
+      "judge": 3,
+      "absolute_difference": 0
+    },
+    {
+      "run_id": "M3.C02",
+      "case_id": "C02",
+      "model": "M3",
+      "dimension": "D",
+      "human": 2,
+      "judge": 3,
+      "absolute_difference": 1
+    },
+    {
+      "run_id": "M3.C02",
+      "case_id": "C02",
+      "model": "M3",
+      "dimension": "L",
+      "human": 3,
+      "judge": 3,
+      "absolute_difference": 0
+    }
+  ],
+  "weighted_scores": [
+    {
+      "run_id": "M1.C01",
+      "human_score": 72.5,
+      "judge_score": 85.0
+    },
+    {
+      "run_id": "M1.C02",
+      "human_score": 87.5,
+      "judge_score": 92.5
+    },
+    {
+      "run_id": "M3.C02",
+      "human_score": 72.5,
+      "judge_score": 80.0
+    }
+  ],
+  "MAE": 0.6666666666666666,
+  "within_one": 1.0,
+  "dimension_decisions": 9,
+  "sample_count": 3,
+  "case_count": 2,
+  "source_families": 1,
+  "warning": "Diagnostic small sample, not independent statistical reliability evidence."
+}

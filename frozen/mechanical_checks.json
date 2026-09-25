@@ -1,0 +1,1991 @@
+[
+  {
+    "run_id": "M1.C01",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C01",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 83.833333,
+      "line_characters": 231,
+      "action_beats": 13
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C01",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C01",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 99.0,
+      "line_characters": 333,
+      "action_beats": 10
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C01",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C01",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 98.388889,
+      "line_characters": 229,
+      "action_beats": 19
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C03",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C03",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 98.388889,
+      "line_characters": 184,
+      "action_beats": 23
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C03",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C03",
+    "selected": true,
+    "hard": {
+      "H": 12,
+      "hard_pass": false,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "fail",
+          "ok": false,
+          "points": 0,
+          "overlength_beats": [
+            [
+              2,
+              1,
+              37
+            ],
+            [
+              2,
+              3,
+              41
+            ]
+          ]
+        },
+        "H4": {
+          "status": "fail",
+          "ok": false,
+          "points": 0
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 107.388889,
+      "line_characters": 292,
+      "action_beats": 17
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C03",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C03",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 99.5,
+      "line_characters": 279,
+      "action_beats": 15
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C02",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C02",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 2
+        }
+      },
+      "estimated_seconds": 96.0,
+      "line_characters": 207,
+      "action_beats": 20
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C02",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C02",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 2
+        }
+      },
+      "estimated_seconds": 88.5,
+      "line_characters": 207,
+      "action_beats": 17
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C02",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C02",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 2
+        }
+      },
+      "estimated_seconds": 79.611111,
+      "line_characters": 122,
+      "action_beats": 21
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C04",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C04",
+    "selected": false,
+    "hard": {
+      "H": 0,
+      "hard_pass": false,
+      "rules": {
+        "H1": {
+          "status": "fail",
+          "ok": false,
+          "points": 0,
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        "H2": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        },
+        "H3": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        },
+        "H4": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        },
+        "H5": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        }
+      },
+      "estimated_seconds": null
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C04",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C04",
+    "selected": false,
+    "hard": {
+      "H": 16,
+      "hard_pass": false,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "fail",
+          "ok": false,
+          "points": 0
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 154.833333,
+      "line_characters": 438,
+      "action_beats": 23
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C04",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C04",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 150.333333,
+      "line_characters": 519,
+      "action_beats": 14
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C06",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C06",
+    "selected": false,
+    "hard": {
+      "H": 12,
+      "hard_pass": false,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "fail",
+          "ok": false,
+          "points": 0,
+          "overlength_beats": [
+            [
+              0,
+              1,
+              45
+            ],
+            [
+              0,
+              18,
+              48
+            ],
+            [
+              0,
+              31,
+              48
+            ],
+            [
+              0,
+              45,
+              43
+            ],
+            [
+              0,
+              51,
+              38
+            ],
+            [
+              0,
+              55,
+              145
+            ],
+            [
+              0,
+              61,
+              56
+            ],
+            [
+              0,
+              63,
+              56
+            ]
+          ]
+        },
+        "H4": {
+          "status": "fail",
+          "ok": false,
+          "points": 0
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 252.055556,
+      "line_characters": 853,
+      "action_beats": 25
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C06",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C06",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 97.5,
+      "line_characters": 315,
+      "action_beats": 11
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C06",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C06",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 86.888889,
+      "line_characters": 256,
+      "action_beats": 12
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C05",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C05",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 90.666667,
+      "line_characters": 273,
+      "action_beats": 12
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C05",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C05",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 99.388889,
+      "line_characters": 301,
+      "action_beats": 13
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C05",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C05",
+    "selected": false,
+    "hard": {
+      "H": 12,
+      "hard_pass": false,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "fail",
+          "ok": false,
+          "points": 0,
+          "overlength_beats": [
+            [
+              0,
+              5,
+              55
+            ],
+            [
+              1,
+              1,
+              38
+            ]
+          ]
+        },
+        "H4": {
+          "status": "fail",
+          "ok": false,
+          "points": 0
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 123.333333,
+      "line_characters": 330,
+      "action_beats": 20
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C10",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C10",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 95.888889,
+      "line_characters": 274,
+      "action_beats": 14
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C10",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C10",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 103.111111,
+      "line_characters": 419,
+      "action_beats": 4
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C10",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C10",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 100.777778,
+      "line_characters": 341,
+      "action_beats": 10
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C07",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C07",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 62.444444,
+      "line_characters": 191,
+      "action_beats": 8
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C07",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C07",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 64.444444,
+      "line_characters": 245,
+      "action_beats": 4
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C07",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C07",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 61.888889,
+      "line_characters": 211,
+      "action_beats": 6
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C08",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C08",
+    "selected": true,
+    "hard": {
+      "H": 12,
+      "hard_pass": false,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "fail",
+          "ok": false,
+          "points": 0,
+          "overlength_beats": [
+            [
+              0,
+              3,
+              48
+            ],
+            [
+              4,
+              3,
+              69
+            ],
+            [
+              5,
+              1,
+              41
+            ]
+          ]
+        },
+        "H4": {
+          "status": "fail",
+          "ok": false,
+          "points": 0
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 117.111111,
+      "line_characters": 302,
+      "action_beats": 20
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C08",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C08",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 91.888889,
+      "line_characters": 211,
+      "action_beats": 18
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C08",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C08",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 91.055556,
+      "line_characters": 241,
+      "action_beats": 15
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.C09",
+    "model": "M3",
+    "kind": "primary",
+    "case_id": "C09",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 89.666667,
+      "line_characters": 111,
+      "action_beats": 26
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.C09",
+    "model": "M1",
+    "kind": "primary",
+    "case_id": "C09",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 87.722222,
+      "line_characters": 181,
+      "action_beats": 19
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.C09",
+    "model": "M2",
+    "kind": "primary",
+    "case_id": "C09",
+    "selected": true,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 85.944444,
+      "line_characters": 218,
+      "action_beats": 15
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M1.S01",
+    "model": "M1",
+    "kind": "side",
+    "case_id": "S01",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 99.388889,
+      "line_characters": 301,
+      "action_beats": 13
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.S01",
+    "model": "M3",
+    "kind": "side",
+    "case_id": "S01",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 98.333333,
+      "line_characters": 285,
+      "action_beats": 14
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M2.S01",
+    "model": "M2",
+    "kind": "side",
+    "case_id": "S01",
+    "selected": false,
+    "hard": {
+      "H": 0,
+      "hard_pass": false,
+      "rules": {
+        "H1": {
+          "status": "fail",
+          "ok": false,
+          "points": 0,
+          "detail": "Expecting value: line 1 column 1 (char 0)"
+        },
+        "H2": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        },
+        "H3": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        },
+        "H4": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        },
+        "H5": {
+          "status": "unavailable",
+          "ok": false,
+          "points": 0
+        }
+      },
+      "estimated_seconds": null
+    },
+    "finish_reasons": [
+      "length"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.T01",
+    "model": "M3",
+    "kind": "side",
+    "case_id": "T01",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 83.111111,
+      "line_characters": 104,
+      "action_beats": 24
+    },
+    "finish_reasons": [
+      "stop",
+      "tool_calls"
+    ],
+    "tool_calls": 2,
+    "artifact_present": true,
+    "artifact_equals_final": false
+  },
+  {
+    "run_id": "M1.T02",
+    "model": "M1",
+    "kind": "side",
+    "case_id": "T02",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 97.611111,
+      "line_characters": 248,
+      "action_beats": 17
+    },
+    "finish_reasons": [
+      "stop",
+      "tool_calls"
+    ],
+    "tool_calls": 3,
+    "artifact_present": true,
+    "artifact_equals_final": false
+  },
+  {
+    "run_id": "M1.T01",
+    "model": "M1",
+    "kind": "side",
+    "case_id": "T01",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 96.111111,
+      "line_characters": 275,
+      "action_beats": 14
+    },
+    "finish_reasons": [
+      "stop",
+      "tool_calls"
+    ],
+    "tool_calls": 4,
+    "artifact_present": true,
+    "artifact_equals_final": false
+  },
+  {
+    "run_id": "M2.T01",
+    "model": "M2",
+    "kind": "side",
+    "case_id": "T01",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 101.888889,
+      "line_characters": 121,
+      "action_beats": 30
+    },
+    "finish_reasons": [
+      "stop",
+      "tool_calls"
+    ],
+    "tool_calls": 2,
+    "artifact_present": true,
+    "artifact_equals_final": false
+  },
+  {
+    "run_id": "M2.T02",
+    "model": "M2",
+    "kind": "side",
+    "case_id": "T02",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 83.888889,
+      "line_characters": 265,
+      "action_beats": 10
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  },
+  {
+    "run_id": "M3.T02",
+    "model": "M3",
+    "kind": "side",
+    "case_id": "T02",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 92.888889,
+      "line_characters": 238,
+      "action_beats": 16
+    },
+    "finish_reasons": [
+      "stop",
+      "tool_calls"
+    ],
+    "tool_calls": 4,
+    "artifact_present": true,
+    "artifact_equals_final": false
+  }
+]

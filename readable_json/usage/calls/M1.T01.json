@@ -1,0 +1,90 @@
+[
+  {
+    "run_id": "M1.T01",
+    "call": 1,
+    "model": "M1",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "completion_tokens": 6748,
+      "prompt_tokens": 2818,
+      "total_tokens": 9566,
+      "completion_tokens_details": {
+        "reasoning_tokens": 5194
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 128
+      }
+    },
+    "reasoning_tokens": 5194,
+    "cached_tokens": 128,
+    "record_status": "completed"
+  },
+  {
+    "run_id": "M1.T01",
+    "call": 2,
+    "model": "M1",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "completion_tokens": 1943,
+      "prompt_tokens": 9630,
+      "total_tokens": 11573,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1541
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 2816
+      }
+    },
+    "reasoning_tokens": 1541,
+    "cached_tokens": 2816,
+    "record_status": "completed"
+  },
+  {
+    "run_id": "M1.T01",
+    "call": 3,
+    "model": "M1",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "completion_tokens": 60,
+      "prompt_tokens": 11603,
+      "total_tokens": 11663,
+      "completion_tokens_details": {
+        "reasoning_tokens": 26
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 9600
+      }
+    },
+    "reasoning_tokens": 26,
+    "cached_tokens": 9600,
+    "record_status": "completed"
+  },
+  {
+    "run_id": "M1.T01",
+    "call": 4,
+    "model": "M1",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "completion_tokens": 992,
+      "prompt_tokens": 11839,
+      "total_tokens": 12831,
+      "completion_tokens_details": {
+        "reasoning_tokens": 10
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 11520
+      }
+    },
+    "reasoning_tokens": 10,
+    "cached_tokens": 11520,
+    "record_status": "completed"
+  }
+]

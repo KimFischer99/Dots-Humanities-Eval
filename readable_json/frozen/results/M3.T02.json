@@ -1,0 +1,52 @@
+[
+  {
+    "kind": "side",
+    "run_id": "M3.T02",
+    "model": "M3",
+    "case_id": "T02",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 92.888889,
+      "line_characters": 238,
+      "action_beats": 16
+    },
+    "finish_reasons": [
+      "stop",
+      "tool_calls"
+    ],
+    "tool_calls": 4,
+    "artifact_present": true,
+    "artifact_equals_final": false
+  }
+]

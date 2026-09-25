@@ -1,0 +1,13 @@
+{
+  "built_at": "2026-09-25T07:07:59.004062+00:00",
+  "base_digest": "python@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e",
+  "pi_sha256": "80d78dd62d50049a006b981d994c61255bcc10e730b0c278d4ea0a755909764c",
+  "image_id": "sha256:1b64338ac3acf40d4a5513e85a1c184af60bbecaf68e99321cdc246af413215b",
+  "platform": "linux/amd64",
+  "docker_server_version": "29.5.2",
+  "host_python": "3.14.4 (v3.14.4:23116f998f6, Apr  7 2026, 09:45:22) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "runtime_hashes": {
+    "runtime.py": "b654b8f53f542b113c02dedce2b28da1d981393173e124f3799c2f20bb36e738",
+    "eval.py": "4115664a6170648bc577210bb9aaa5925e36cf7626d556d91c821b256ac36202"
+  }
+}

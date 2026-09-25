@@ -1,0 +1,142 @@
+{
+  "reviewer": "Kim",
+  "reviewed_at": "2026-09-25T11:44:17.623Z",
+  "rubric_sha256": "7671cae32dab92941032174daeda7bddd597ead9d11c3cc6084113fd15cfc9b6",
+  "items": [
+    {
+      "sample_id": "B1228098ddadc",
+      "output_sha256": "72674b36f1829a459a4adf8135b18984946ac7a06cc8963fdeacc8bd0f5d0c69",
+      "scores": {
+        "F": 3,
+        "D": 2,
+        "L": 3
+      }
+    },
+    {
+      "sample_id": "Bd02841a77a18",
+      "output_sha256": "e96b8ae2e2b678d39a4a34d047ab288ebd08c632eaf275d2a9b2199668e51fe9",
+      "scores": {
+        "F": 4,
+        "D": 3,
+        "L": 3
+      }
+    },
+    {
+      "sample_id": "Bd5f197977f3c",
+      "output_sha256": "8b843d56ce8595d01fbe25470b6300c0528652a76626ad34aaea1cbe5e5a7f52",
+      "scores": {
+        "F": 3,
+        "D": 4,
+        "L": 4
+      }
+    },
+    {
+      "sample_id": "Be24a0b554af0",
+      "output_sha256": "6f11540d82a1b6b14bcab40b6ec51db6d9f83cf968abe05b5c98960f1d8fff1f",
+      "scores": {
+        "F": 4,
+        "D": 3,
+        "L": 3
+      }
+    },
+    {
+      "sample_id": "B40d0dc03b350",
+      "output_sha256": "3d8aa4e408b766872efbcd4d2cecffd8a9313d366e3c3933f3b1a80217bc15a7",
+      "scores": {
+        "F": 3,
+        "D": 2,
+        "L": 2
+      }
+    },
+    {
+      "sample_id": "B4864fe070ab6",
+      "output_sha256": "ea4ecad012bf7594d2512571d472588a1511ae17d87a21a6794e53318c6064eb",
+      "scores": {
+        "F": 2,
+        "D": 1,
+        "L": 1
+      }
+    },
+    {
+      "sample_id": "B890bf33933b3",
+      "output_sha256": "4a9b1426aead8f1fe794743527d96f2a2a083742272e87833d73bd0f0534d65c",
+      "scores": {
+        "F": 3,
+        "D": 3,
+        "L": 2
+      }
+    },
+    {
+      "sample_id": "B43dff667699a",
+      "output_sha256": "41a1324891945b2362a3e9170af3e5b994817a0f0accf7a401e019bde78a0282",
+      "scores": {
+        "F": 2,
+        "D": 1,
+        "L": 1
+      }
+    },
+    {
+      "sample_id": "B6fe490b82f7b",
+      "output_sha256": "38be95b1059a03013da5a212a44fdd77d77f26a889ba99f4403a44c95cfbc4e0",
+      "scores": {
+        "F": 2,
+        "D": 2,
+        "L": 3
+      }
+    },
+    {
+      "sample_id": "Bd20ff642e769",
+      "output_sha256": "8764851dcc664fc5a237f705658d95128acff00e46b047ab9febd60ad8c0ce99",
+      "scores": {
+        "F": 3,
+        "D": 2,
+        "L": 3
+      }
+    },
+    {
+      "sample_id": "B44ada0b9ae12",
+      "output_sha256": "8a5ffcc25d9164c25a014950acaa763f3b44582a8ae42820adcb671a7ede5348",
+      "scores": {
+        "F": 3,
+        "D": 3,
+        "L": 2
+      }
+    },
+    {
+      "sample_id": "B27ff096fb338",
+      "output_sha256": "3406d181c310c7e3301b864a32fcbbc9ef196dc44a6d6a1b723f9d8fb7a1033d",
+      "scores": {
+        "F": 1,
+        "D": 2,
+        "L": 1
+      }
+    },
+    {
+      "sample_id": "B5b5358c8b0c6",
+      "output_sha256": "600cbccbc52ec988d601a4c6ea181352ebcbddead611de903e397358cd3a38dc",
+      "scores": {
+        "F": 3,
+        "D": 3,
+        "L": 3
+      }
+    },
+    {
+      "sample_id": "B4ccba7c2c1eb",
+      "output_sha256": "5b634c20fc63b20f9a851a18175b420b900e2244f1a16a9824969223489cc6a9",
+      "scores": {
+        "F": 3,
+        "D": 2,
+        "L": 2
+      }
+    },
+    {
+      "sample_id": "B392ea9796950",
+      "output_sha256": "f109dfc09549240fa4ac048fd2c90948e08d8bced57153d4744d27918cf34549",
+      "scores": {
+        "F": 4,
+        "D": 3,
+        "L": 4
+      }
+    }
+  ]
+}

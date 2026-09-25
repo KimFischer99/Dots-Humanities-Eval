@@ -1,0 +1,24 @@
+[
+  {
+    "run_id": "judge-validation-B44ada0b9ae12-9208fde164",
+    "call": 1,
+    "model": "J",
+    "scope": "judge_current",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "completion_tokens": 4174,
+      "prompt_tokens": 3969,
+      "total_tokens": 8143,
+      "completion_tokens_details": {
+        "reasoning_tokens": 4150
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 2048
+      }
+    },
+    "reasoning_tokens": 4150,
+    "cached_tokens": 2048,
+    "record_status": "completed"
+  }
+]

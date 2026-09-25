@@ -1,0 +1,5 @@
+{
+  "locked_at": "2026-09-25T12:52:55.346171+00:00",
+  "judge_hash": "9208fde1645ea9fe55a18b10703cb850ba5f097a8ced2d3ccfce008ff6ce35fd",
+  "reason": "新版仅输出F/D/L三项整数；三份dev均通过契约校验。根据dev对照，本次不再修改Judge prompt，锁定当前版本。"
+}

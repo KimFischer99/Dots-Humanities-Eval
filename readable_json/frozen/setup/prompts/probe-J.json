@@ -1,0 +1,35 @@
+[
+  {
+    "run_id": "probe-J",
+    "at": "2026-09-25T07:14:58.555409+00:00",
+    "model_label": "J",
+    "requested_system": "Reply with the single word PONG.",
+    "skill_body_sha256": null,
+    "user": "Connectivity check only.",
+    "effective_request": {
+      "model": "kimi-k3",
+      "messages": [
+        {
+          "role": "system",
+          "content": "Reply with the single word PONG.\n\n<cwd>\n/workspace\n</cwd>"
+        },
+        {
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": "Connectivity check only."
+            }
+          ]
+        }
+      ],
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "max_tokens": 32768,
+      "reasoning_effort": "high"
+    },
+    "image_id": "sha256:1b64338ac3acf40d4a5513e85a1c184af60bbecaf68e99321cdc246af413215b"
+  }
+]

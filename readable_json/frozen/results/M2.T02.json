@@ -1,0 +1,51 @@
+[
+  {
+    "kind": "side",
+    "run_id": "M2.T02",
+    "model": "M2",
+    "case_id": "T02",
+    "selected": false,
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 83.888889,
+      "line_characters": 265,
+      "action_beats": 10
+    },
+    "finish_reasons": [
+      "stop"
+    ],
+    "tool_calls": 0,
+    "artifact_present": false,
+    "artifact_equals_final": null
+  }
+]

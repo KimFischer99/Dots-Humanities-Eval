@@ -1,0 +1,11 @@
+{
+  "authorized_at": "2026-09-25T12:10:16.353148+00:00",
+  "authorization": "User requested serial single-case single-request Judge restart with doubled time limit.",
+  "deadline_seconds": 1200,
+  "concurrency": 1,
+  "requests_per_attempt": 1,
+  "authorized_retry_run_ids": [
+    "judge-dev-B1228098ddadc-b303fe717c"
+  ],
+  "failure_preservation": "Original judges.jsonl record and complete job/trajectory remain; one explicit attempt2 only."
+}

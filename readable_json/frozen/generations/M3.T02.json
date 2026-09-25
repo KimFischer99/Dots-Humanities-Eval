@@ -1,0 +1,146 @@
+[
+  {
+    "run_id": "M3.T02",
+    "model": "M3",
+    "status": "completed",
+    "output": "{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\"id\": \"P01\", \"name\": \"贾妃\"},\n    {\"id\": \"P02\", \"name\": \"贾母\"},\n    {\"id\": \"P03\", \"name\": \"王夫人\"},\n    {\"id\": \"P04\", \"name\": \"贾政\"},\n    {\"id\": \"P05\", \"name\": \"宝玉\"},\n    {\"id\": \"P06\", \"name\": \"王熙凤\"},\n    {\"id\": \"P07\", \"name\": \"邢夫人\"},\n    {\"id\": \"P08\", \"name\": \"李纨\"},\n    {\"id\": \"P09\", \"name\": \"迎春\"},\n    {\"id\": \"P10\", \"name\": \"探春\"},\n    {\"id\": \"P11\", \"name\": \"惜春\"}\n  ],\n  \"locations\": [\n    {\"id\": \"L01\", \"name\": \"贾母正室\"},\n    {\"id\": \"L02\", \"name\": \"大观园\"}\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\"],\n      \"flow\": [\n        {\"action\": \"乐止，贾妃自座上起身。\"},\n        {\"action\": \"贾母、王夫人跪止不迭。\"},\n        {\"action\": \"贾妃一手搀贾母、一手搀王夫人，三人相对呜咽对泣。\"},\n        {\"action\": \"邢夫人、李纨、王熙凤与迎、探、惜三姊妹在旁围绕，垂泪无言。\"},\n        {\"action\": \"贾妃忍悲强笑。\"},\n        {\"speaker\": \"P01\", \"line\": \"当日既送我到那不得见人的去处，好容易今日回家娘儿们一会，反倒哭起来。\", \"mode\": \"spoken\", \"delivery\": \"强笑\"},\n        {\"speaker\": \"P01\", \"line\": \"一会子我就要走了，又不知多晚才来了！\", \"mode\": \"spoken\", \"delivery\": \"哽咽\"},\n        {\"action\": \"王熙凤上来解劝，贾母、王夫人让贾妃归座。\"},\n        {\"speaker\": \"P01\", \"line\": \"薛姨妈、宝钗、黛玉为何不见？\", \"mode\": \"spoken\", \"delivery\": \"问\"},\n        {\"speaker\": \"P03\", \"line\": \"外眷无职，未敢擅入。\", \"mode\": \"spoken\", \"delivery\": \"起身启奏\"},\n        {\"action\": \"贾妃听了，忙命快请。\"},\n        {\"action\": \"贾政至帘外问安，贾妃垂帘还礼。\"},\n        {\"speaker\": \"P04\", \"line\": \"田舍之家，虽齑盐布帛，终能聚天伦之乐。\", \"mode\": \"spoken\", \"delivery\": \"隔帘含泪\"},\n        {\"speaker\": \"P04\", \"line\": \"今虽富贵已极，骨肉各方，然终无意趣！\", \"mode\": \"spoken\", \"delivery\": \"隔帘含泪\"},\n        {\"speaker\": \"P04\", \"line\": \"臣只业业兢兢，恪守本职；请贵妃自加珍爱，莫念老拙。\", \"mode\": \"spoken\", \"delivery\": \"含泪\"},\n        {\"speaker\": \"P01\", \"line\": \"只以国事为重，暇时保养，切勿记念。\", \"mode\": \"spoken\", \"delivery\": \"隔帘\"},\n        {\"speaker\": \"P04\", \"line\": \"园中亭台轩馆，皆是宝玉题的；若有一二可看的，请赐名。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"},\n        {\"speaker\": \"P01\", \"line\": \"果进益了。\", \"mode\": \"spoken\", \"delivery\": \"含笑\"},\n        {\"action\": \"贾政退出。\"},\n        {\"speaker\": \"P01\", \"line\": \"宝玉为何不进见？\", \"mode\": \"spoken\", \"delivery\": \"问\"},\n        {\"speaker\": \"P02\", \"line\": \"无谕，外男不敢擅入。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"},\n        {\"action\": \"贾妃命引进来，宝玉入内，先行国礼毕。\"},\n        {\"action\": \"贾妃命宝玉进前，揽于怀内，抚其头颈。\"},\n        {\"speaker\": \"P01\", \"line\": \"比先竟长了好些……\", \"mode\": \"spoken\", \"delivery\": \"笑\"},\n        {\"action\": \"一语未终，贾妃泪如雨下。\"},\n        {\"speaker\": \"P06\", \"line\": \"筵宴齐备，请贵妃游幸。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"}\n      ]\n    },\n    {\n      \"sceneId\": \"L02\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P05\", \"P06\"],\n      \"flow\": [\n        {\"action\": \"贾妃与贾母、王夫人起身，命宝玉导引，同至园门前。\"},\n        {\"action\": \"园中灯光火树，贾妃与贾母、王夫人入园，遍游“有凤来仪”“杏帘在望”等处。\"},\n        {\"speaker\": \"P01\", \"line\": \"以后不可太奢，此皆过分之极。\", \"mode\": \"spoken\", \"delivery\": \"劝\"},\n        {\"action\": \"至正殿，免礼归座，大开筵宴。\"},\n        {\"action\": \"贾母、王夫人在下相陪，王熙凤亲捧羹把盏。\"}\n      ]\n    }\n  ]\n}",
+    "output_sha256": "eaffd9c99a2a1586d714e60f0e3057f9f65f98033e842c5a1321a00fe1f7ea1b",
+    "pi_result": {
+      "kind": "worker_result",
+      "at": "2026-09-25T10:15:11.859196+00:00",
+      "output": "{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\"id\": \"P01\", \"name\": \"贾妃\"},\n    {\"id\": \"P02\", \"name\": \"贾母\"},\n    {\"id\": \"P03\", \"name\": \"王夫人\"},\n    {\"id\": \"P04\", \"name\": \"贾政\"},\n    {\"id\": \"P05\", \"name\": \"宝玉\"},\n    {\"id\": \"P06\", \"name\": \"王熙凤\"},\n    {\"id\": \"P07\", \"name\": \"邢夫人\"},\n    {\"id\": \"P08\", \"name\": \"李纨\"},\n    {\"id\": \"P09\", \"name\": \"迎春\"},\n    {\"id\": \"P10\", \"name\": \"探春\"},\n    {\"id\": \"P11\", \"name\": \"惜春\"}\n  ],\n  \"locations\": [\n    {\"id\": \"L01\", \"name\": \"贾母正室\"},\n    {\"id\": \"L02\", \"name\": \"大观园\"}\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\"],\n      \"flow\": [\n        {\"action\": \"乐止，贾妃自座上起身。\"},\n        {\"action\": \"贾母、王夫人跪止不迭。\"},\n        {\"action\": \"贾妃一手搀贾母、一手搀王夫人，三人相对呜咽对泣。\"},\n        {\"action\": \"邢夫人、李纨、王熙凤与迎、探、惜三姊妹在旁围绕，垂泪无言。\"},\n        {\"action\": \"贾妃忍悲强笑。\"},\n        {\"speaker\": \"P01\", \"line\": \"当日既送我到那不得见人的去处，好容易今日回家娘儿们一会，反倒哭起来。\", \"mode\": \"spoken\", \"delivery\": \"强笑\"},\n        {\"speaker\": \"P01\", \"line\": \"一会子我就要走了，又不知多晚才来了！\", \"mode\": \"spoken\", \"delivery\": \"哽咽\"},\n        {\"action\": \"王熙凤上来解劝，贾母、王夫人让贾妃归座。\"},\n        {\"speaker\": \"P01\", \"line\": \"薛姨妈、宝钗、黛玉为何不见？\", \"mode\": \"spoken\", \"delivery\": \"问\"},\n        {\"speaker\": \"P03\", \"line\": \"外眷无职，未敢擅入。\", \"mode\": \"spoken\", \"delivery\": \"起身启奏\"},\n        {\"action\": \"贾妃听了，忙命快请。\"},\n        {\"action\": \"贾政至帘外问安，贾妃垂帘还礼。\"},\n        {\"speaker\": \"P04\", \"line\": \"田舍之家，虽齑盐布帛，终能聚天伦之乐。\", \"mode\": \"spoken\", \"delivery\": \"隔帘含泪\"},\n        {\"speaker\": \"P04\", \"line\": \"今虽富贵已极，骨肉各方，然终无意趣！\", \"mode\": \"spoken\", \"delivery\": \"隔帘含泪\"},\n        {\"speaker\": \"P04\", \"line\": \"臣只业业兢兢，恪守本职；请贵妃自加珍爱，莫念老拙。\", \"mode\": \"spoken\", \"delivery\": \"含泪\"},\n        {\"speaker\": \"P01\", \"line\": \"只以国事为重，暇时保养，切勿记念。\", \"mode\": \"spoken\", \"delivery\": \"隔帘\"},\n        {\"speaker\": \"P04\", \"line\": \"园中亭台轩馆，皆是宝玉题的；若有一二可看的，请赐名。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"},\n        {\"speaker\": \"P01\", \"line\": \"果进益了。\", \"mode\": \"spoken\", \"delivery\": \"含笑\"},\n        {\"action\": \"贾政退出。\"},\n        {\"speaker\": \"P01\", \"line\": \"宝玉为何不进见？\", \"mode\": \"spoken\", \"delivery\": \"问\"},\n        {\"speaker\": \"P02\", \"line\": \"无谕，外男不敢擅入。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"},\n        {\"action\": \"贾妃命引进来，宝玉入内，先行国礼毕。\"},\n        {\"action\": \"贾妃命宝玉进前，揽于怀内，抚其头颈。\"},\n        {\"speaker\": \"P01\", \"line\": \"比先竟长了好些……\", \"mode\": \"spoken\", \"delivery\": \"笑\"},\n        {\"action\": \"一语未终，贾妃泪如雨下。\"},\n        {\"speaker\": \"P06\", \"line\": \"筵宴齐备，请贵妃游幸。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"}\n      ]\n    },\n    {\n      \"sceneId\": \"L02\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P05\", \"P06\"],\n      \"flow\": [\n        {\"action\": \"贾妃与贾母、王夫人起身，命宝玉导引，同至园门前。\"},\n        {\"action\": \"园中灯光火树，贾妃与贾母、王夫人入园，遍游“有凤来仪”“杏帘在望”等处。\"},\n        {\"speaker\": \"P01\", \"line\": \"以后不可太奢，此皆过分之极。\", \"mode\": \"spoken\", \"delivery\": \"劝\"},\n        {\"action\": \"至正殿，免礼归座，大开筵宴。\"},\n        {\"action\": \"贾母、王夫人在下相陪，王熙凤亲捧羹把盏。\"}\n      ]\n    }\n  ]\n}",
+      "assistant_message": {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "thinking",
+            "thinking": "The file has been verified (hard_pass: true, estimated value 92.89 seconds, within the range of 76.5–103.5). Next, as the final answer, I'll output only the JSON object.",
+            "thinkingSignature": "reasoning_content"
+          },
+          {
+            "type": "text",
+            "text": "{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\"id\": \"P01\", \"name\": \"贾妃\"},\n    {\"id\": \"P02\", \"name\": \"贾母\"},\n    {\"id\": \"P03\", \"name\": \"王夫人\"},\n    {\"id\": \"P04\", \"name\": \"贾政\"},\n    {\"id\": \"P05\", \"name\": \"宝玉\"},\n    {\"id\": \"P06\", \"name\": \"王熙凤\"},\n    {\"id\": \"P07\", \"name\": \"邢夫人\"},\n    {\"id\": \"P08\", \"name\": \"李纨\"},\n    {\"id\": \"P09\", \"name\": \"迎春\"},\n    {\"id\": \"P10\", \"name\": \"探春\"},\n    {\"id\": \"P11\", \"name\": \"惜春\"}\n  ],\n  \"locations\": [\n    {\"id\": \"L01\", \"name\": \"贾母正室\"},\n    {\"id\": \"L02\", \"name\": \"大观园\"}\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P04\", \"P05\", \"P06\", \"P07\", \"P08\", \"P09\", \"P10\", \"P11\"],\n      \"flow\": [\n        {\"action\": \"乐止，贾妃自座上起身。\"},\n        {\"action\": \"贾母、王夫人跪止不迭。\"},\n        {\"action\": \"贾妃一手搀贾母、一手搀王夫人，三人相对呜咽对泣。\"},\n        {\"action\": \"邢夫人、李纨、王熙凤与迎、探、惜三姊妹在旁围绕，垂泪无言。\"},\n        {\"action\": \"贾妃忍悲强笑。\"},\n        {\"speaker\": \"P01\", \"line\": \"当日既送我到那不得见人的去处，好容易今日回家娘儿们一会，反倒哭起来。\", \"mode\": \"spoken\", \"delivery\": \"强笑\"},\n        {\"speaker\": \"P01\", \"line\": \"一会子我就要走了，又不知多晚才来了！\", \"mode\": \"spoken\", \"delivery\": \"哽咽\"},\n        {\"action\": \"王熙凤上来解劝，贾母、王夫人让贾妃归座。\"},\n        {\"speaker\": \"P01\", \"line\": \"薛姨妈、宝钗、黛玉为何不见？\", \"mode\": \"spoken\", \"delivery\": \"问\"},\n        {\"speaker\": \"P03\", \"line\": \"外眷无职，未敢擅入。\", \"mode\": \"spoken\", \"delivery\": \"起身启奏\"},\n        {\"action\": \"贾妃听了，忙命快请。\"},\n        {\"action\": \"贾政至帘外问安，贾妃垂帘还礼。\"},\n        {\"speaker\": \"P04\", \"line\": \"田舍之家，虽齑盐布帛，终能聚天伦之乐。\", \"mode\": \"spoken\", \"delivery\": \"隔帘含泪\"},\n        {\"speaker\": \"P04\", \"line\": \"今虽富贵已极，骨肉各方，然终无意趣！\", \"mode\": \"spoken\", \"delivery\": \"隔帘含泪\"},\n        {\"speaker\": \"P04\", \"line\": \"臣只业业兢兢，恪守本职；请贵妃自加珍爱，莫念老拙。\", \"mode\": \"spoken\", \"delivery\": \"含泪\"},\n        {\"speaker\": \"P01\", \"line\": \"只以国事为重，暇时保养，切勿记念。\", \"mode\": \"spoken\", \"delivery\": \"隔帘\"},\n        {\"speaker\": \"P04\", \"line\": \"园中亭台轩馆，皆是宝玉题的；若有一二可看的，请赐名。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"},\n        {\"speaker\": \"P01\", \"line\": \"果进益了。\", \"mode\": \"spoken\", \"delivery\": \"含笑\"},\n        {\"action\": \"贾政退出。\"},\n        {\"speaker\": \"P01\", \"line\": \"宝玉为何不进见？\", \"mode\": \"spoken\", \"delivery\": \"问\"},\n        {\"speaker\": \"P02\", \"line\": \"无谕，外男不敢擅入。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"},\n        {\"action\": \"贾妃命引进来，宝玉入内，先行国礼毕。\"},\n        {\"action\": \"贾妃命宝玉进前，揽于怀内，抚其头颈。\"},\n        {\"speaker\": \"P01\", \"line\": \"比先竟长了好些……\", \"mode\": \"spoken\", \"delivery\": \"笑\"},\n        {\"action\": \"一语未终，贾妃泪如雨下。\"},\n        {\"speaker\": \"P06\", \"line\": \"筵宴齐备，请贵妃游幸。\", \"mode\": \"spoken\", \"delivery\": \"启奏\"}\n      ]\n    },\n    {\n      \"sceneId\": \"L02\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P05\", \"P06\"],\n      \"flow\": [\n        {\"action\": \"贾妃与贾母、王夫人起身，命宝玉导引，同至园门前。\"},\n        {\"action\": \"园中灯光火树，贾妃与贾母、王夫人入园，遍游“有凤来仪”“杏帘在望”等处。\"},\n        {\"speaker\": \"P01\", \"line\": \"以后不可太奢，此皆过分之极。\", \"mode\": \"spoken\", \"delivery\": \"劝\"},\n        {\"action\": \"至正殿，免礼归座，大开筵宴。\"},\n        {\"action\": \"贾母、王夫人在下相陪，王熙凤亲捧羹把盏。\"}\n      ]\n    }\n  ]\n}"
+          }
+        ],
+        "api": "openai-completions",
+        "provider": "eval-gateway",
+        "model": "eval-model",
+        "usage": {
+          "input": 3460,
+          "output": 1426,
+          "cacheRead": 30720,
+          "cacheWrite": 0,
+          "reasoning": 52,
+          "totalTokens": 35606,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0,
+            "total": 0
+          }
+        },
+        "stopReason": "stop",
+        "timestamp": 1790331293950,
+        "responseId": "chatcmpl-344d2377-12bf-9fd3-88d3-1e8605070cae",
+        "responseModel": "qwen3.8-27b",
+        "rawStopReason": "stop"
+      },
+      "exit_code": 0,
+      "stop": null,
+      "tool_calls": 4,
+      "artifact_text": "{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\n      \"id\": \"P01\",\n      \"name\": \"贾妃\"\n    },\n    {\n      \"id\": \"P02\",\n      \"name\": \"贾母\"\n    },\n    {\n      \"id\": \"P03\",\n      \"name\": \"王夫人\"\n    },\n    {\n      \"id\": \"P04\",\n      \"name\": \"贾政\"\n    },\n    {\n      \"id\": \"P05\",\n      \"name\": \"宝玉\"\n    },\n    {\n      \"id\": \"P06\",\n      \"name\": \"王熙凤\"\n    },\n    {\n      \"id\": \"P07\",\n      \"name\": \"邢夫人\"\n    },\n    {\n      \"id\": \"P08\",\n      \"name\": \"李纨\"\n    },\n    {\n      \"id\": \"P09\",\n      \"name\": \"迎春\"\n    },\n    {\n      \"id\": \"P10\",\n      \"name\": \"探春\"\n    },\n    {\n      \"id\": \"P11\",\n      \"name\": \"惜春\"\n    }\n  ],\n  \"locations\": [\n    {\n      \"id\": \"L01\",\n      \"name\": \"贾母正室\"\n    },\n    {\n      \"id\": \"L02\",\n      \"name\": \"大观园\"\n    }\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\n        \"P01\",\n        \"P02\",\n        \"P03\",\n        \"P04\",\n        \"P05\",\n        \"P06\",\n        \"P07\",\n        \"P08\",\n        \"P09\",\n        \"P10\",\n        \"P11\"\n      ],\n      \"flow\": [\n        {\n          \"action\": \"乐止，贾妃自座上起身。\"\n        },\n        {\n          \"action\": \"贾母、王夫人跪止不迭。\"\n        },\n        {\n          \"action\": \"贾妃一手搀贾母、一手搀王夫人，三人相对呜咽对泣。\"\n        },\n        {\n          \"action\": \"邢夫人、李纨、王熙凤与迎、探、惜三姊妹在旁围绕，垂泪无言。\"\n        },\n        {\n          \"action\": \"贾妃忍悲强笑。\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"当日既送我到那不得见人的去处，好容易今日回家娘儿们一会，反倒哭起来。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"强笑\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"一会子我就要走了，又不知多晚才来了！\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"哽咽\"\n        },\n        {\n          \"action\": \"王熙凤上来解劝，贾母、王夫人让贾妃归座。\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"薛姨妈、宝钗、黛玉为何不见？\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"问\"\n        },\n        {\n          \"speaker\": \"P03\",\n          \"line\": \"外眷无职，未敢擅入。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"起身启奏\"\n        },\n        {\n          \"action\": \"贾妃听了，忙命快请。\"\n        },\n        {\n          \"action\": \"贾政至帘外问安，贾妃垂帘还礼。\"\n        },\n        {\n          \"speaker\": \"P04\",\n          \"line\": \"田舍之家，虽齑盐布帛，终能聚天伦之乐。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"隔帘含泪\"\n        },\n        {\n          \"speaker\": \"P04\",\n          \"line\": \"今虽富贵已极，骨肉各方，然终无意趣！\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"隔帘含泪\"\n        },\n        {\n          \"speaker\": \"P04\",\n          \"line\": \"臣只业业兢兢，恪守本职；请贵妃自加珍爱，莫念老拙。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"含泪\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"只以国事为重，暇时保养，切勿记念。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"隔帘\"\n        },\n        {\n          \"speaker\": \"P04\",\n          \"line\": \"园中亭台轩馆，皆是宝玉题的；若有一二可看的，请赐名。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"启奏\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"果进益了。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"含笑\"\n        },\n        {\n          \"action\": \"贾政退出。\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"宝玉为何不进见？\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"问\"\n        },\n        {\n          \"speaker\": \"P02\",\n          \"line\": \"无谕，外男不敢擅入。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"启奏\"\n        },\n        {\n          \"action\": \"贾妃命引进来，宝玉入内，先行国礼毕。\"\n        },\n        {\n          \"action\": \"贾妃命宝玉进前，揽于怀内，抚其头颈。\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"比先竟长了好些……\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"笑\"\n        },\n        {\n          \"action\": \"一语未终，贾妃泪如雨下。\"\n        },\n        {\n          \"speaker\": \"P06\",\n          \"line\": \"筵宴齐备，请贵妃游幸。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"启奏\"\n        }\n      ]\n    },\n    {\n      \"sceneId\": \"L02\",\n      \"characters\": [\n        \"P01\",\n        \"P02\",\n        \"P03\",\n        \"P05\",\n        \"P06\"\n      ],\n      \"flow\": [\n        {\n          \"action\": \"贾妃与贾母、王夫人起身，命宝玉导引，同至园门前。\"\n        },\n        {\n          \"action\": \"园中灯光火树，贾妃与贾母、王夫人入园，遍游“有凤来仪”“杏帘在望”等处。\"\n        },\n        {\n          \"speaker\": \"P01\",\n          \"line\": \"以后不可太奢，此皆过分之极。\",\n          \"mode\": \"spoken\",\n          \"delivery\": \"劝\"\n        },\n        {\n          \"action\": \"至正殿，免礼归座，大开筵宴。\"\n        },\n        {\n          \"action\": \"贾母、王夫人在下相陪，王熙凤亲捧羹把盏。\"\n        }\n      ]\n    }\n  ]\n}",
+      "elapsed_seconds": 517.4964561569996
+    },
+    "docker_exit_code": 0,
+    "wrapper_error": null,
+    "wire_errors": false,
+    "api_metadata": {
+      "response_model_ids": [
+        "qwen3.8-27b"
+      ],
+      "finish_reasons": [
+        "stop",
+        "tool_calls"
+      ],
+      "usage_by_call": {
+        "1": {
+          "prompt_tokens": 2465,
+          "total_tokens": 29427,
+          "completion_tokens": 26962,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 2465
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 25641
+          }
+        },
+        "2": {
+          "prompt_tokens": 29447,
+          "total_tokens": 29838,
+          "completion_tokens": 391,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 29447
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 22
+          }
+        },
+        "3": {
+          "prompt_tokens": 30099,
+          "total_tokens": 32069,
+          "completion_tokens": 1970,
+          "prompt_tokens_details": {
+            "cached_tokens": 28288,
+            "text_tokens": 30099
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1350
+          }
+        },
+        "4": {
+          "prompt_tokens": 32279,
+          "total_tokens": 32375,
+          "completion_tokens": 96,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "text_tokens": 32279
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 67
+          }
+        },
+        "5": {
+          "prompt_tokens": 34180,
+          "total_tokens": 35606,
+          "completion_tokens": 1426,
+          "prompt_tokens_details": {
+            "cached_tokens": 30720,
+            "text_tokens": 34180
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 52
+          }
+        }
+      },
+      "reasoning_content_observed": true,
+      "api_call_count": 5
+    },
+    "effective_system_sha256": "eadcd707a6ae83c5b85cc94dbe3ba65cdf2e02c2648088411d721331d30aeff7",
+    "image_id": "sha256:1b64338ac3acf40d4a5513e85a1c184af60bbecaf68e99321cdc246af413215b",
+    "reported_pi_version": "0.87.1",
+    "sandbox_checks": {
+      "no_upstream_key": true,
+      "no_host_socket": true,
+      "no_evaluator_dataset": true,
+      "no_proxy_env": true,
+      "external_tcp_denied": true,
+      "external_dns_denied": true
+    },
+    "at": "2026-09-25T10:15:12.750661+00:00",
+    "case_id": "T02",
+    "kind": "side"
+  }
+]

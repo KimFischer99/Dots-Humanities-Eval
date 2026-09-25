@@ -1,0 +1,117 @@
+[
+  {
+    "run_id": "M3.T02",
+    "call": 1,
+    "model": "M3",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 2465,
+      "total_tokens": 29427,
+      "completion_tokens": 26962,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 2465
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 25641
+      }
+    },
+    "reasoning_tokens": 25641,
+    "cached_tokens": 0,
+    "record_status": "completed"
+  },
+  {
+    "run_id": "M3.T02",
+    "call": 2,
+    "model": "M3",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 29447,
+      "total_tokens": 29838,
+      "completion_tokens": 391,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 29447
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 22
+      }
+    },
+    "reasoning_tokens": 22,
+    "cached_tokens": 0,
+    "record_status": "completed"
+  },
+  {
+    "run_id": "M3.T02",
+    "call": 3,
+    "model": "M3",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 30099,
+      "total_tokens": 32069,
+      "completion_tokens": 1970,
+      "prompt_tokens_details": {
+        "cached_tokens": 28288,
+        "text_tokens": 30099
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1350
+      }
+    },
+    "reasoning_tokens": 1350,
+    "cached_tokens": 28288,
+    "record_status": "completed"
+  },
+  {
+    "run_id": "M3.T02",
+    "call": 4,
+    "model": "M3",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 32279,
+      "total_tokens": 32375,
+      "completion_tokens": 96,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 32279
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 67
+      }
+    },
+    "reasoning_tokens": 67,
+    "cached_tokens": 0,
+    "record_status": "completed"
+  },
+  {
+    "run_id": "M3.T02",
+    "call": 5,
+    "model": "M3",
+    "scope": "side_tools",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 34180,
+      "total_tokens": 35606,
+      "completion_tokens": 1426,
+      "prompt_tokens_details": {
+        "cached_tokens": 30720,
+        "text_tokens": 34180
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 52
+      }
+    },
+    "reasoning_tokens": 52,
+    "cached_tokens": 30720,
+    "record_status": "completed"
+  }
+]

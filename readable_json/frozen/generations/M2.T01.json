@@ -1,0 +1,105 @@
+[
+  {
+    "run_id": "M2.T01",
+    "model": "M2",
+    "status": "completed",
+    "output": "\n\n{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\"id\": \"P01\", \"name\": \"格雷戈尔·萨姆沙\"},\n    {\"id\": \"P02\", \"name\": \"母亲\"},\n    {\"id\": \"P03\", \"name\": \"父亲\"},\n    {\"id\": \"P04\", \"name\": \"妹妹\"}\n  ],\n  \"locations\": [\n    {\"id\": \"L01\", \"name\": \"格雷戈尔的房间\"}\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P04\"],\n      \"flow\": [\n        {\"action\": \"格雷戈尔从梦中醒来，睁开眼睛。\"},\n        {\"action\": \"他仰卧在床上，背部覆盖着坚甲。\"},\n        {\"action\": \"他抬头看见自己褐色的腹部隆起，分成弧形硬片。\"},\n        {\"action\": \"被子滑落到腹部下方，露出顶部。\"},\n        {\"action\": \"他细弱的腿在眼前颤动。\"},\n        {\"action\": \"他试图向右侧翻身。\"},\n        {\"action\": \"他用左臂支撑身体，但手臂无力。\"},\n        {\"action\": \"他晃动身体，但失去平衡。\"},\n        {\"action\": \"他摇摇晃晃地转回仰卧姿势。\"},\n        {\"action\": \"他闭上眼睛。\"},\n        {\"action\": \"他腰侧感到轻微钝痛，停止挣扎。\"},\n        {\"action\": \"他用背蹭到床柱处。\"},\n        {\"action\": \"他抬头看发痒的地方，发现白色小点。\"},\n        {\"action\": \"他用腿去摸，但一接触全身就起寒战。\"},\n        {\"action\": \"他缩回腿，滑回原处。\"},\n        {\"action\": \"他看向柜子上的闹钟。\"},\n        {\"action\": \"他看见闹钟指针指向六点半。\"},\n        {\"action\": \"他听见窗外雨滴声。\"},\n        {\"action\": \"他看向墙上镜框里的画。\"},\n        {\"action\": \"他看着画中戴裘皮帽的女士。\"},\n        {\"action\": \"房间门上传来小心翼翼的敲门声。\"},\n        {\"speaker\": \"P02\", \"line\": \"格雷戈尔，六点三刻了，你不是还得赶火车吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"是的，是的，谢谢妈妈，我这就起床，别为我担心。\", \"mode\": \"spoken\"},\n        {\"action\": \"母亲踢踢踏踏地走开。\"},\n        {\"action\": \"侧面门上传来轻轻的敲门声，用的是拳头。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！你怎么啦？\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔停顿片刻，努力发音。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲又用低沉声音敲门。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔回答。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲回去吃早餐。\"},\n        {\"action\": \"另一侧门传来轻轻的带着担心的敲门声。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，你是不是不舒服？你需要什么吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"妹妹低声说。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，开开门，我求你了。\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔没有开门，反而锁上门。\"}\n      ]\n    }\n  ]\n}",
+    "output_sha256": "fab0c61c3e886654aac81a42ddc0244bff2991e8e4714dfb8d6fdd78d0c93c8d",
+    "pi_result": {
+      "kind": "worker_result",
+      "at": "2026-09-25T10:02:54.552678+00:00",
+      "output": "\n\n{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\"id\": \"P01\", \"name\": \"格雷戈尔·萨姆沙\"},\n    {\"id\": \"P02\", \"name\": \"母亲\"},\n    {\"id\": \"P03\", \"name\": \"父亲\"},\n    {\"id\": \"P04\", \"name\": \"妹妹\"}\n  ],\n  \"locations\": [\n    {\"id\": \"L01\", \"name\": \"格雷戈尔的房间\"}\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P04\"],\n      \"flow\": [\n        {\"action\": \"格雷戈尔从梦中醒来，睁开眼睛。\"},\n        {\"action\": \"他仰卧在床上，背部覆盖着坚甲。\"},\n        {\"action\": \"他抬头看见自己褐色的腹部隆起，分成弧形硬片。\"},\n        {\"action\": \"被子滑落到腹部下方，露出顶部。\"},\n        {\"action\": \"他细弱的腿在眼前颤动。\"},\n        {\"action\": \"他试图向右侧翻身。\"},\n        {\"action\": \"他用左臂支撑身体，但手臂无力。\"},\n        {\"action\": \"他晃动身体，但失去平衡。\"},\n        {\"action\": \"他摇摇晃晃地转回仰卧姿势。\"},\n        {\"action\": \"他闭上眼睛。\"},\n        {\"action\": \"他腰侧感到轻微钝痛，停止挣扎。\"},\n        {\"action\": \"他用背蹭到床柱处。\"},\n        {\"action\": \"他抬头看发痒的地方，发现白色小点。\"},\n        {\"action\": \"他用腿去摸，但一接触全身就起寒战。\"},\n        {\"action\": \"他缩回腿，滑回原处。\"},\n        {\"action\": \"他看向柜子上的闹钟。\"},\n        {\"action\": \"他看见闹钟指针指向六点半。\"},\n        {\"action\": \"他听见窗外雨滴声。\"},\n        {\"action\": \"他看向墙上镜框里的画。\"},\n        {\"action\": \"他看着画中戴裘皮帽的女士。\"},\n        {\"action\": \"房间门上传来小心翼翼的敲门声。\"},\n        {\"speaker\": \"P02\", \"line\": \"格雷戈尔，六点三刻了，你不是还得赶火车吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"是的，是的，谢谢妈妈，我这就起床，别为我担心。\", \"mode\": \"spoken\"},\n        {\"action\": \"母亲踢踢踏踏地走开。\"},\n        {\"action\": \"侧面门上传来轻轻的敲门声，用的是拳头。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！你怎么啦？\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔停顿片刻，努力发音。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲又用低沉声音敲门。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔回答。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲回去吃早餐。\"},\n        {\"action\": \"另一侧门传来轻轻的带着担心的敲门声。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，你是不是不舒服？你需要什么吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"妹妹低声说。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，开开门，我求你了。\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔没有开门，反而锁上门。\"}\n      ]\n    }\n  ]\n}",
+      "assistant_message": {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "thinking",
+            "thinking": "检查通过，hard_pass为true，estimated_seconds为101.89，在目标范围内。所有规则通过。\n\n现在，最终回复应该是同一个JSON对象，不加代码围栏、解释、自评或多余字段。所以我们直接输出JSON。\n\n注意：我们输出的JSON应该与保存的一致，但最终回复中不需要包含source_id等？契约说“只输出一个 JSON 对象，不加代码围栏、解释、自评或多余字段。顶层只有source_id（固定为\"TEXT\"）、cast、locations和scenes。” 所以我们直接输出该JSON。\n\n因此，最终回复就是上面的JSON内容。",
+            "thinkingSignature": "reasoning_content"
+          },
+          {
+            "type": "text",
+            "text": "\n\n{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\"id\": \"P01\", \"name\": \"格雷戈尔·萨姆沙\"},\n    {\"id\": \"P02\", \"name\": \"母亲\"},\n    {\"id\": \"P03\", \"name\": \"父亲\"},\n    {\"id\": \"P04\", \"name\": \"妹妹\"}\n  ],\n  \"locations\": [\n    {\"id\": \"L01\", \"name\": \"格雷戈尔的房间\"}\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P04\"],\n      \"flow\": [\n        {\"action\": \"格雷戈尔从梦中醒来，睁开眼睛。\"},\n        {\"action\": \"他仰卧在床上，背部覆盖着坚甲。\"},\n        {\"action\": \"他抬头看见自己褐色的腹部隆起，分成弧形硬片。\"},\n        {\"action\": \"被子滑落到腹部下方，露出顶部。\"},\n        {\"action\": \"他细弱的腿在眼前颤动。\"},\n        {\"action\": \"他试图向右侧翻身。\"},\n        {\"action\": \"他用左臂支撑身体，但手臂无力。\"},\n        {\"action\": \"他晃动身体，但失去平衡。\"},\n        {\"action\": \"他摇摇晃晃地转回仰卧姿势。\"},\n        {\"action\": \"他闭上眼睛。\"},\n        {\"action\": \"他腰侧感到轻微钝痛，停止挣扎。\"},\n        {\"action\": \"他用背蹭到床柱处。\"},\n        {\"action\": \"他抬头看发痒的地方，发现白色小点。\"},\n        {\"action\": \"他用腿去摸，但一接触全身就起寒战。\"},\n        {\"action\": \"他缩回腿，滑回原处。\"},\n        {\"action\": \"他看向柜子上的闹钟。\"},\n        {\"action\": \"他看见闹钟指针指向六点半。\"},\n        {\"action\": \"他听见窗外雨滴声。\"},\n        {\"action\": \"他看向墙上镜框里的画。\"},\n        {\"action\": \"他看着画中戴裘皮帽的女士。\"},\n        {\"action\": \"房间门上传来小心翼翼的敲门声。\"},\n        {\"speaker\": \"P02\", \"line\": \"格雷戈尔，六点三刻了，你不是还得赶火车吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"是的，是的，谢谢妈妈，我这就起床，别为我担心。\", \"mode\": \"spoken\"},\n        {\"action\": \"母亲踢踢踏踏地走开。\"},\n        {\"action\": \"侧面门上传来轻轻的敲门声，用的是拳头。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！你怎么啦？\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔停顿片刻，努力发音。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲又用低沉声音敲门。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔回答。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲回去吃早餐。\"},\n        {\"action\": \"另一侧门传来轻轻的带着担心的敲门声。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，你是不是不舒服？你需要什么吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"妹妹低声说。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，开开门，我求你了。\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔没有开门，反而锁上门。\"}\n      ]\n    }\n  ]\n}"
+          }
+        ],
+        "api": "openai-completions",
+        "provider": "eval-gateway",
+        "model": "eval-model",
+        "usage": {
+          "input": 809,
+          "output": 1053,
+          "cacheRead": 19456,
+          "cacheWrite": 0,
+          "reasoning": 0,
+          "totalTokens": 21318,
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0,
+            "total": 0
+          }
+        },
+        "stopReason": "stop",
+        "timestamp": 1790330565642,
+        "responseId": "525cc7ca95034aebaedc3dd5bb6c60f4",
+        "responseModel": "dots3-note-prev",
+        "rawStopReason": "stop"
+      },
+      "exit_code": 0,
+      "stop": null,
+      "tool_calls": 2,
+      "artifact_text": "{\n  \"source_id\": \"TEXT\",\n  \"cast\": [\n    {\"id\": \"P01\", \"name\": \"格雷戈尔·萨姆沙\"},\n    {\"id\": \"P02\", \"name\": \"母亲\"},\n    {\"id\": \"P03\", \"name\": \"父亲\"},\n    {\"id\": \"P04\", \"name\": \"妹妹\"}\n  ],\n  \"locations\": [\n    {\"id\": \"L01\", \"name\": \"格雷戈尔的房间\"}\n  ],\n  \"scenes\": [\n    {\n      \"sceneId\": \"L01\",\n      \"characters\": [\"P01\", \"P02\", \"P03\", \"P04\"],\n      \"flow\": [\n        {\"action\": \"格雷戈尔从梦中醒来，睁开眼睛。\"},\n        {\"action\": \"他仰卧在床上，背部覆盖着坚甲。\"},\n        {\"action\": \"他抬头看见自己褐色的腹部隆起，分成弧形硬片。\"},\n        {\"action\": \"被子滑落到腹部下方，露出顶部。\"},\n        {\"action\": \"他细弱的腿在眼前颤动。\"},\n        {\"action\": \"他试图向右侧翻身。\"},\n        {\"action\": \"他用左臂支撑身体，但手臂无力。\"},\n        {\"action\": \"他晃动身体，但失去平衡。\"},\n        {\"action\": \"他摇摇晃晃地转回仰卧姿势。\"},\n        {\"action\": \"他闭上眼睛。\"},\n        {\"action\": \"他腰侧感到轻微钝痛，停止挣扎。\"},\n        {\"action\": \"他用背蹭到床柱处。\"},\n        {\"action\": \"他抬头看发痒的地方，发现白色小点。\"},\n        {\"action\": \"他用腿去摸，但一接触全身就起寒战。\"},\n        {\"action\": \"他缩回腿，滑回原处。\"},\n        {\"action\": \"他看向柜子上的闹钟。\"},\n        {\"action\": \"他看见闹钟指针指向六点半。\"},\n        {\"action\": \"他听见窗外雨滴声。\"},\n        {\"action\": \"他看向墙上镜框里的画。\"},\n        {\"action\": \"他看着画中戴裘皮帽的女士。\"},\n        {\"action\": \"房间门上传来小心翼翼的敲门声。\"},\n        {\"speaker\": \"P02\", \"line\": \"格雷戈尔，六点三刻了，你不是还得赶火车吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"是的，是的，谢谢妈妈，我这就起床，别为我担心。\", \"mode\": \"spoken\"},\n        {\"action\": \"母亲踢踢踏踏地走开。\"},\n        {\"action\": \"侧面门上传来轻轻的敲门声，用的是拳头。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！你怎么啦？\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔停顿片刻，努力发音。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲又用低沉声音敲门。\"},\n        {\"speaker\": \"P03\", \"line\": \"格雷戈尔！格雷戈尔！\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔回答。\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"父亲回去吃早餐。\"},\n        {\"action\": \"另一侧门传来轻轻的带着担心的敲门声。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，你是不是不舒服？你需要什么吗？\", \"mode\": \"spoken\"},\n        {\"speaker\": \"P01\", \"line\": \"我这就好了。\", \"mode\": \"spoken\"},\n        {\"action\": \"妹妹低声说。\"},\n        {\"speaker\": \"P04\", \"line\": \"格雷戈尔，开开门，我求你了。\", \"mode\": \"spoken\"},\n        {\"action\": \"格雷戈尔没有开门，反而锁上门。\"}\n      ]\n    }\n  ]\n}",
+      "elapsed_seconds": 192.79936849000114
+    },
+    "docker_exit_code": 0,
+    "wrapper_error": null,
+    "wire_errors": false,
+    "api_metadata": {
+      "response_model_ids": [
+        "dots3-note-prev"
+      ],
+      "finish_reasons": [
+        "stop",
+        "tool_calls"
+      ],
+      "usage_by_call": {
+        "1": {
+          "prompt_tokens": 2868,
+          "completion_tokens": 17073,
+          "total_tokens": 19941
+        },
+        "2": {
+          "prompt_tokens": 19959,
+          "completion_tokens": 127,
+          "total_tokens": 20086
+        },
+        "3": {
+          "prompt_tokens": 20265,
+          "prompt_tokens_details": {
+            "cached_read_tokens": 19456,
+            "cached_tokens": 19456
+          },
+          "completion_tokens": 1053,
+          "total_tokens": 21318
+        }
+      },
+      "reasoning_content_observed": true,
+      "api_call_count": 3
+    },
+    "effective_system_sha256": "eadcd707a6ae83c5b85cc94dbe3ba65cdf2e02c2648088411d721331d30aeff7",
+    "image_id": "sha256:1b64338ac3acf40d4a5513e85a1c184af60bbecaf68e99321cdc246af413215b",
+    "reported_pi_version": "0.87.1",
+    "sandbox_checks": {
+      "no_upstream_key": true,
+      "no_host_socket": true,
+      "no_evaluator_dataset": true,
+      "no_proxy_env": true,
+      "external_tcp_denied": true,
+      "external_dns_denied": true
+    },
+    "at": "2026-09-25T10:02:55.302897+00:00",
+    "case_id": "T01",
+    "kind": "side"
+  }
+]

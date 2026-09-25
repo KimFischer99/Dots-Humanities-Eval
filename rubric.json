@@ -1,0 +1,79 @@
+{
+  "version": "3.1",
+  "score_scale": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "hard_max": 20,
+  "hard_rules": {
+    "H1": "严格JSON、字段、自报人物/场景表与场次/节拍结构",
+    "H2": "输出人物/场景表各自ID唯一，场次及发话人引用内部一致；不判断原文依据",
+    "H3": "每句台词不超过35个非空白NFC Unicode码点",
+    "H4": "固定代理估时处于目标85%—115%",
+    "H5": "inner标签符合forbid或allow_limited（最多2条）"
+  },
+  "hard_points_each": 4,
+  "timing": {
+    "chars_per_second": 4.5,
+    "action_seconds": 2.5,
+    "tolerance": 0.15,
+    "max_line_chars": 35
+  },
+  "dimensions": [
+    {
+      "id": "F",
+      "name": "材料保真与人物理解",
+      "weight": 30,
+      "question": "基于原文识别的人物身份、关系、动机、知情状态及核心因果/意象是否准确？生成人物表和剧本是否遵守材料边界？",
+      "anchors": {
+        "0": "没有实质相关内容，或核心人物身份、关系、结局整体颠倒。",
+        "1": "关键人物身份、关系、因果或动机明显误读，或强行依靠新增事件推进。",
+        "2": "主线可辨认，但人物识别、关系、知情状态或材料取舍存在重要遗漏、误读或越界。",
+        "3": "核心人物身份、关系与意义准确，取舍有原文依据；仅有不影响理解的微小偏差。",
+        "4": "独立准确理解人物、关系和知情边界，保留核心因果/意象与关键情节，压缩或合并有据且不改变材料原意。"
+      },
+      "do_not": "不要逐字对译或按人物、情节数量机械累计。只依据给定原文；人物表是待评内容，不是事实依据。合理省略、合并或最小舞台承载不自动扣分；无人物材料不强求人物关系。H2通过不证明理解正确。"
+    },
+    {
+      "id": "D",
+      "name": "戏剧形式与组织",
+      "weight": 30,
+      "question": "基于原文生成的场景及叙述是否形成可感知的行动/交流；取舍、衔接和情绪推进是否符合剧本预算？",
+      "anchors": {
+        "0": "没有可正常理解的舞台呈现，或没有形成完整剧本。",
+        "1": "主要靠叙述人物心理、摘要或无意义动作撑场，核心因果混乱/不可读。",
+        "2": "部分场面成立，但有明显跳跃、注水、主次失衡、或逻辑不连贯。",
+        "3": "内容完整，主要场面、行为与情绪可理解，节奏连贯，没有重复凑时长。",
+        "4": "以经济而有效的行动和对白呈现原文张力；前后状态连贯，取舍精准。"
+      },
+      "do_not": "诗歌按意象舞台化判断；不强求反转、爽点或悬念。合法inner不是天然减分项。",
+      "granularity": "识别“把多个重要行动塞进一拍”，或“把台词藏进动作来操纵估时”的做法；需要语义证据，不能靠动作字数直接判坏。"
+    },
+    {
+      "id": "L",
+      "name": "语言与角色表达",
+      "weight": 20,
+      "question": "台词和动作语言是否自然、具体、合乎原文人物/体裁，并具有表达辨识度？",
+      "anchors": {
+        "0": "语言基本不可理解或没有符合要求的输出。",
+        "1": "大量不通、套话或不合语境的表达，人物形象难以成立。",
+        "2": "能读懂，但明显翻译腔、AI腔、重复、人物同声或表达生硬、空泛。",
+        "3": "表达清晰、自然、基本贴合角色和场景；少量措辞可小幅调整。",
+        "4": "表达简洁而有表现力，人物语气贴合语境，接近原文质量。"
+      },
+      "do_not": "不使用AI腔词表、辞藻计数或个人文风偏好；动作叙述也属于语言，少对白不自动打低分。",
+      "language_requirement": "若作品主要内容不是TASK.output_language指定语言，L至多1分；必要的外文专名不算违例。"
+    }
+  ],
+  "formula": "S = H + 30*F/4 + 30*D/4 + 20*L/4; H=sum(5 binary rules)*4",
+  "aggregation": "Primary: arithmetic mean over exactly 10 scheduled cases per model. Also report 8-family equal-weight mean as a sensitivity check. Side cases excluded.",
+  "pass": "H=20 and F,D,L each>=3; a numeric total alone is not a pass.",
+  "missing": "Infrastructure failure, absent judge, invalid judge evidence or unresolved uncertainty => score null and overall incomplete. Never impute mean/zero. Empty or refused model output from a completed generation => 0 with explicit failure tag.",
+  "format_failure": "Invalid JSON is still read by humans/Judge for textual quality. H1 fails; H2-H5 are unavailable and contribute 0, not asserted to have individually failed.",
+  "calibration": "预选C01/C02/C05调试，C03/C04/C07验证；每个split按固定种子从三模型各抽1份，合计6份响应、每模型2份。人工在任何正式Kimi评价前给18个分数，并快速核对全部30份原始输出。抽样映射在人工封存前不展示。",
+  "double_count": "Do not lower F/D/L merely because a mechanical rule failed; cite a distinct semantic or expressive defect. Duration proxy failure alone belongs to H4. Avoid repeated punishment of the same defect across dimensions.",
+  "uncertain": "Use null plus missing evidence; uncertainty is not a middle score. Source contradictions and debatable interpretations require bounded explanation, not invented certainty."
+}

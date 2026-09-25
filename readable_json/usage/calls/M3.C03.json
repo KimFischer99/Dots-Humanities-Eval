@@ -1,0 +1,25 @@
+[
+  {
+    "run_id": "M3.C03",
+    "call": 1,
+    "model": "M3",
+    "scope": "primary",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 1831,
+      "total_tokens": 24755,
+      "completion_tokens": 22924,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "text_tokens": 1831
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 21791
+      }
+    },
+    "reasoning_tokens": 21791,
+    "cached_tokens": 0,
+    "record_status": "completed"
+  }
+]

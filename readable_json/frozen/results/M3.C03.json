@@ -1,0 +1,164 @@
+[
+  {
+    "kind": "primary",
+    "run_id": "M3.C03",
+    "case_id": "C03",
+    "family": "RED",
+    "model": "M3",
+    "hard": {
+      "H": 20,
+      "hard_pass": true,
+      "rules": {
+        "H1": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H2": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H3": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "overlength_beats": []
+        },
+        "H4": {
+          "status": "pass",
+          "ok": true,
+          "points": 4
+        },
+        "H5": {
+          "status": "pass",
+          "ok": true,
+          "points": 4,
+          "inner_count": 0
+        }
+      },
+      "estimated_seconds": 98.388889,
+      "line_characters": 184,
+      "action_beats": 23
+    },
+    "judge": {
+      "run_id": "judge-validation-B6fe490b82f7b-9208fde164",
+      "model": "J",
+      "status": "completed",
+      "output": "{\"F\":2,\"D\":3,\"L\":3}",
+      "output_sha256": "da6894e36e688fbefa284c34fc9969b5bde421d9d722ba213db3296cfeda88ea",
+      "pi_result": {
+        "kind": "worker_result",
+        "at": "2026-09-25T12:57:50.759628+00:00",
+        "output": "{\"F\":2,\"D\":3,\"L\":3}",
+        "assistant_message": {
+          "role": "assistant",
+          "content": [
+            {
+              "type": "thinking",
+              "thinking": "Let me analyze the candidate against the source text.\n\nSource: 元妃省亲 scene from 红楼梦. Key beats:\n1. 贾妃到贾母正室，欲行家礼，贾母等跪止；三人呜咽对泣。\n2. 贾妃忍悲强笑安慰：\"当日既送我到那不得见人的去处...一会子我去了，又不知多早晚才来！\"\n3. 问薛姨妈、宝钗、黛玉因何不见；王夫人答\"外眷无职，未敢擅入\"；命快请。\n4. 抱琴叩见。\n5. 贾政帘外问安；贾妃隔帘含泪谓父：\"田舍之家，虽齑盐布帛，终能聚天伦之乐；今虽富贵已极，骨肉各方，然终无意趣！\" 贾政回一大段话。贾妃嘱\"只以国事为重，暇时保养，切勿记念\"。\n6. 贾政说园中亭台皆宝玉所题，请赐名；元妃\"果进益了\"。\n7. 元妃问\"宝玉为何不进见？\"贾母答\"无谕，外男不敢擅入\"。命引进来。携手揽于怀内，抚头颈笑：\"比先竟长了好些……\"一语未终，泪如雨下。\n8. 尤氏凤姐请游幸；宝玉导引；游园；贾妃极加奖赞，又劝\"以后不可太奢，此皆过分之极。\"至正殿开筵宴。\n\nCandidate issues:\n\nF (材料保真与人物理解):\n- Cast: includes 贾妃, 贾母, 王夫人, 贾政, 宝玉, 宝钗, 黛玉, 薛姨妈, 抱琴, 内侍. All in source (内侍/小太监 exists). OK.\n- Critical error: 贾政 says \"富贵虽多，骨肉分离，缺少天伦。\" — In the source, this line is spoken by 贾妃 to her father (\"田舍之家...今虽富贵已极，骨肉各方，然终无意趣\"), NOT by 贾政. This is a major attribution error — the emotional core line of the father-daughter exchange is given to the wrong speaker, reversing the relationship dynamic. 贾政's actual speech is formal loyalist gratitude. This is a significant misreading of 知情状态/动机/人物关系.\n- Also missing 贾妃问\"宝玉为何不进见\" and 贾母's answer \"无谕外男不敢擅入\" — instead 内侍引宝玉进来 directly after 贾政退出 without the question. Minor omission but the pattern 外眷无职/外男无谕 is a key parallel in the text; one is kept (薛姨妈) and one is dropped. Also \"一语未终，泪如雨下\" is split into action \"贾妃落泪\" — acceptable.\n- \"宝钗、黛玉，你们也长高了\" — invented line; in source the 长高 comment is for 宝玉. Source says 贾妃见宝、林二人姣花软玉一般. The line to 宝钗黛玉 about growing taller is not in source — minor fabrication, but \"宝、林二人亦发比别姊妹不同\" could loosely justify some address; still it's an invented line attributing the 宝玉-specific observation to 宝钗黛玉. Minor.\n- \"娘娘，我们心里有话，说不出口。\" — 贾母 line, invented but captures \"满心里皆有许多话，只是俱说不出\". Acceptable dramatization.\n- 贾妃's key line \"当日既送我到那不得见人的去处\" — omitted. The line \"今日回家，怎么反倒哭起来\" captures part. The \"不得见人的去处\" is a key emotional beat but omission is compression.\n- 贾政's long loyal speech — entirely dropped except 题名 part. That's a major omission of the scene's thematic contrast (贾政 official gratitude vs 贾妃 emotional complaint). Combined with misattribution of 贾妃's line to 贾政, this distorts the father's character significantly — he appears to voice the family-sentiment complaint, losing his rigid loyalist identity.\n- 尤氏/凤姐 asking to 游幸 — dropped; fine for compression.\n- 贾妃嘱贾政\"只以国事为重\" — candidate has 贾妃 say \"朝中事务要紧，闲暇时保养自己\" after 宝玉 section, placed oddly but content preserved. OK-ish.\n- 贾妃's advice \"以后不可太奢\" kept.\n\nSo F: core misattribution of the emotional centerpiece line to 贾政 — that's a 关系/动机 misreading of an important beat. Anchor 2: \"主线可辨认，但人物识别、关系、知情状态或材料取舍存在重要遗漏、误读或越界。\" Anchor 1: \"关键人物身份、关系、因果或动机明显误读\". Is it 1 or 2? The main storyline is recognizable: 省亲, 母女对泣, 问外眷, 父子帘外对话, 宝玉进见, 游园, 戒奢. One key line misattributed — it does distort 贾政's character and the 隔帘对话 meaning, but the overall identities/relationships remain correct. I'd say F=2. The misattribution is a clear 误读 of who says what in a crucial exchange — arguably \"关键人物...动机明显误读\" (anchor 1)? Anchor 1 says \"关键人物身份、关系、因果或动机明显误读，或强行依靠新增事件推进\". Giving 贾妃's longing-for-family line to 贾政 does misread 贾政's 动机/性格 in that key moment. But the rest is mostly accurate. The rubric says 同一语义错误不跨维重复扣分. I think F=2 is fair: important misreading/omission but main thread recognizable. Some might argue 3 (\"核心人物身份、关系与意义准确...仅有微小偏差\") — but the 贾政 line misattribution is not a micro deviation; it's the emotional core of the father-daughter scene. So F=2.\n\nD (戏剧形式与组织):\n- Two scenes: 贾母正厅 (all beats compressed), 大观园正殿 (brief). Scene L02 is thin — 5 beats, ~1 line. Budget 90 seconds. The first scene crams many major actions into quick succession: 更衣, 跪, 对泣, 问外眷, 抱琴, 贾政问安+对话, 宝玉进见, 嘱政, all in L01. Some beats feel stuffed (\"把多个重要行动塞进一拍\"). But overall there is perceivable action/exchange, order follows source, transitions mostly logical.\n- Issue: 贾妃 says \"朝中事务要紧\" (her instruction to 贾政) placed after the 宝玉 embrace and after \"众人劝慰\" — misplaced; in source it follows 贾政's speech before 题名/宝玉. Actually in source order: 贾政 speech → 贾妃嘱 → 贾政题名 request → 元妃含笑 → 贾政退出 → 问宝玉. Candidate order: 贾政 line (misattributed) → 题名 → 贾妃\"宝玉题名有进益\" → 宝玉进 → 揽怀 → 落泪 → 众人劝慰 → 贾妃\"朝中事务要紧\" → 贾政退下. So the 嘱语 is displaced after 宝玉 scene — a logical disorder (她对着刚抱完宝玉的情绪转头嘱贾政). Minor incoherence but noticeable.\n- Also 贾政退下 happens at very end of L01, but 贾政 asking 题名 and exiting should precede 宝玉 entrance. In candidate 贾政 stays until end. Slightly muddled but on-stage plausible (he's at 帘外 the whole time? He said lines then stays; exit at end is fine-ish).\n- The ending scene is very thin but that's economical. Overall: \"内容完整，主要场面、行为与情绪可理解，节奏连贯\" — anchor 3 vs anchor 2 \"部分场面成立，但有明显跳跃...或逻辑不连贯\". The cramming of many actions and misplaced 嘱语 — I'd say D=3? Let me weigh. Actions flow in source order mostly; dialogue exchanges readable; no narration of psychology; no filler. The L02 scene is slight but acceptable. The misplaced 嘱贾政 line after the 宝玉 embrace is a small jump. Also \"贾妃退入侧殿更衣\" as first action then immediately she's with 贾母 — fine.\n- Hmm, also the 90-second budget: ~17 lines/actions in L01 plus 5 in L02. That's plausible for 90s. Not over/under massively.\n- I'll give D=3. Actually, is there \"明显跳跃\"? The shift from 母女对泣 to 问外眷 is abrupt but source-driven. The 贾政 exchange reduced to his (wrong) line + 题名 — the emotional exchange loses its back-and-forth but formally it's still dialogue. I think 3 is right: complete, comprehensible, coherent pacing, no padding.\n\nL (语言与角色表达):\n- Language is plain, clear, natural modern Chinese renderings: \"外眷没有职务，不敢擅入\", \"比从前长高了许多\", \"以后游园宴饮，不可太奢侈\". Simple but fitting. Some lines slightly flat/generic (\"娘娘，我们心里有话，说不出口\"). \"富贵虽多，骨肉分离，缺少天伦\" — given to wrong speaker but as language it's fine.\n- 贾妃's register: mostly appropriate. 贾政's lines: \"园中题名，都是宝玉做的。若有一处可看，请娘娘赐个名字。\" — captures 贾政's request in plain terms; his courtly register lost, but since his big speech was cut, that's an F/D issue more than L. As language, lines are natural and readable, differentiated enough (贾母 familial, 贾妃 warm-sad, 贾政 formal-ish).\n- Anchor 3: \"表达清晰、自然、基本贴合角色和场景；少量措辞可小幅调整。\" Anchor 4: \"表达简洁而有表现力，人物语气贴合语境，接近原文质量。\" The lines are serviceable but somewhat plain and a bit uniform; \"接近原文质量\" not quite — original is rich, candidate is flattened colloquial. L=3 seems right. Could be 2 for being somewhat generic? The lines aren't 翻译腔 or AI腔; they're natural. Distinctness: 贾母/贾妃/王夫人 voices are similar plain register, but short script. I'll go L=3.\n\nFinal: F=2, D=3, L=3.",
+              "thinkingSignature": "reasoning_content"
+            },
+            {
+              "type": "text",
+              "text": "{\"F\":2,\"D\":3,\"L\":3}"
+            }
+          ],
+          "api": "openai-completions",
+          "provider": "eval-gateway",
+          "model": "eval-model",
+          "usage": {
+            "input": 2303,
+            "output": 2281,
+            "cacheRead": 1024,
+            "cacheWrite": 0,
+            "reasoning": 2257,
+            "totalTokens": 5608,
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "total": 0
+            }
+          },
+          "stopReason": "stop",
+          "timestamp": 1790341027107,
+          "responseId": "chatcmpl-6ab66fa3729977abbd6d0fc4",
+          "responseModel": "kimi-k3",
+          "rawStopReason": "stop"
+        },
+        "exit_code": 0,
+        "stop": null,
+        "tool_calls": 0,
+        "artifact_text": null,
+        "elapsed_seconds": 47.52994052900249
+      },
+      "docker_exit_code": 0,
+      "wrapper_error": null,
+      "wire_errors": false,
+      "api_metadata": {
+        "response_model_ids": [
+          "kimi-k3"
+        ],
+        "finish_reasons": [
+          "stop"
+        ],
+        "usage_by_call": {
+          "1": {
+            "completion_tokens": 2281,
+            "prompt_tokens": 3327,
+            "total_tokens": 5608,
+            "completion_tokens_details": {
+              "reasoning_tokens": 2257
+            },
+            "prompt_tokens_details": {
+              "cached_tokens": 1024
+            }
+          }
+        },
+        "reasoning_content_observed": true,
+        "api_call_count": 1
+      },
+      "effective_system_sha256": "a9f082ecf6b13846d16415a725cbcd3b3417ab139613e1d47a7e1d5b9bdcfab7",
+      "image_id": "sha256:1b64338ac3acf40d4a5513e85a1c184af60bbecaf68e99321cdc246af413215b",
+      "reported_pi_version": "0.87.1",
+      "sandbox_checks": {
+        "no_upstream_key": true,
+        "no_host_socket": true,
+        "no_evaluator_dataset": true,
+        "no_proxy_env": true,
+        "external_tcp_denied": true,
+        "external_dns_denied": true
+      },
+      "at": "2026-09-25T12:57:51.160630+00:00",
+      "generation_id": "M3.C03",
+      "phase": "validation",
+      "judge_hash": "9208fde1645ea9fe55a18b10703cb850ba5f097a8ced2d3ccfce008ff6ce35fd",
+      "human_seal_sha256": "a139a63c4e74f64659d46cecd29320ce4c1f0dcfe56ac8d6b8da509c41e81dab"
+    },
+    "score": 72.5,
+    "pass": false,
+    "status": "scored",
+    "human_quality": {
+      "F": 2,
+      "D": 2,
+      "L": 3
+    },
+    "human_score": 65.0,
+    "human_pass": false,
+    "quality": {
+      "F": 2,
+      "D": 3,
+      "L": 3
+    },
+    "judge_score": 72.5,
+    "judge_pass": false,
+    "judge_status": "scored",
+    "judge_quality": {
+      "F": 2,
+      "D": 3,
+      "L": 3
+    }
+  }
+]

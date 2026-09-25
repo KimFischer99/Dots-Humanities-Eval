@@ -1,0 +1,18 @@
+[
+  {
+    "run_id": "probe-M2",
+    "call": 1,
+    "model": "M2",
+    "scope": "setup_probe",
+    "included_formal": false,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 877,
+      "completion_tokens": 6768,
+      "total_tokens": 7645
+    },
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "record_status": "completed"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "run_id": "M2.S01",
+    "call": 1,
+    "model": "M2",
+    "scope": "side_language",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 1857,
+      "completion_tokens": 32768,
+      "total_tokens": 34625
+    },
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "record_status": "completed"
+  }
+]

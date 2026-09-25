@@ -1,0 +1,103 @@
+{
+  "version": "3.0",
+  "pi_version": "0.87.1",
+  "pi_url": "https://github.com/earendil-works/pi/releases/download/v0.87.1/pi-linux-x64.tar.gz",
+  "pi_sha256": "80d78dd62d50049a006b981d994c61255bcc10e730b0c278d4ea0a755909764c",
+  "image_tag": "literary-eval-pi:0.87.1-v3",
+  "seed": 260924,
+  "primary_models": [
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "human_cases": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C07"
+  ],
+  "judge_dev": [
+    "C01",
+    "C02",
+    "C05"
+  ],
+  "judge_validation": [
+    "C03",
+    "C04",
+    "C07"
+  ],
+  "max_output_tokens": 32768,
+  "judge_max_output_tokens": 32768,
+  "deadline_seconds": 600,
+  "tool_call_limit": 8,
+  "request_limit_primary": 1,
+  "request_limit_tools": 9,
+  "automatic_retries": 0,
+  "side_default": true,
+  "providers": {
+    "M1": {
+      "name": "MiMo-V2.6-Pro",
+      "id": "mimo-v2.6-pro",
+      "url": "https://api.xiaomimimo.com/v1/chat/completions",
+      "key_env": "MIMO_API_KEY",
+      "auth_header": "api-key",
+      "auth_prefix": "",
+      "overrides": {
+        "thinking": {
+          "type": "enabled"
+        }
+      },
+      "token_field": "max_completion_tokens"
+    },
+    "M2": {
+      "name": "Dots3-note-prev",
+      "id": "dots3-note-prev",
+      "url": "https://note3-prev-api.askdiandian.com/v1/chat/completions",
+      "key_env": "DOTS_API_KEY",
+      "auth_header": "api-key",
+      "auth_prefix": "",
+      "overrides": {
+        "chat_template_kwargs": {
+          "enable_thinking": true
+        }
+      },
+      "token_field": "max_tokens"
+    },
+    "M3": {
+      "name": "Qwen3.8-27B",
+      "id": "qwen3.8-27b",
+      "url": "https://maas.qianwenaiapi.com/compatible-mode/v1/chat/completions",
+      "key_env": "QWEN_API_KEY",
+      "auth_header": "Authorization",
+      "auth_prefix": "Bearer ",
+      "overrides": {
+        "enable_thinking": true
+      },
+      "token_field": "max_tokens"
+    },
+    "J": {
+      "name": "Kimi K3",
+      "id": "kimi-k3",
+      "url": "https://tokenrhythm.studio/v1/chat/completions",
+      "key_env": "KIMI_API_KEY",
+      "auth_header": "Authorization",
+      "auth_prefix": "Bearer ",
+      "overrides": {
+        "reasoning_effort": "high"
+      },
+      "token_field": "max_tokens"
+    }
+  },
+  "sampling": {
+    "generators": {
+      "temperature": 0.2,
+      "top_p": 1.0
+    },
+    "judge": {},
+    "note": "Generators use native thinking enabled with provider-default effort; no common reasoning_effort is asserted. Pi medium is a harness setting and its reasoning_effort is removed by the gateway. All four models now request a nominal 32768-token cap to allow thinking plus final output, subject to provider accounting. This is not a character limit or an equal reasoning-compute guarantee. Generator temperature/top_p are unchanged; Judge keeps reasoning_effort=high and native sampling defaults. Budget-truncated probes cannot authorize a formal freeze."
+  },
+  "endpoint_note": "User approved supplied Qwen and Kimi endpoints for connectivity testing on 2026-09-24. These differ from the original official-endpoint plan; provider identity and returned model IDs must be recorded, not assumed.",
+  "human_selection": "balanced_by_split: one response per model in dev and validation; deterministic before generation"
+}

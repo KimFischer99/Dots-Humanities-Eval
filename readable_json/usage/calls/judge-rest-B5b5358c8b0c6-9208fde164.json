@@ -1,0 +1,24 @@
+[
+  {
+    "run_id": "judge-rest-B5b5358c8b0c6-9208fde164",
+    "call": 1,
+    "model": "J",
+    "scope": "judge_current",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "completion_tokens": 1566,
+      "prompt_tokens": 3467,
+      "total_tokens": 5033,
+      "completion_tokens_details": {
+        "reasoning_tokens": 1542
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 2048
+      }
+    },
+    "reasoning_tokens": 1542,
+    "cached_tokens": 2048,
+    "record_status": "completed"
+  }
+]

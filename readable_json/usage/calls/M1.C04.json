@@ -1,0 +1,24 @@
+[
+  {
+    "run_id": "M1.C04",
+    "call": 1,
+    "model": "M1",
+    "scope": "primary",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "completion_tokens": 7982,
+      "prompt_tokens": 1858,
+      "total_tokens": 9840,
+      "completion_tokens_details": {
+        "reasoning_tokens": 5819
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "reasoning_tokens": 5819,
+    "cached_tokens": 0,
+    "record_status": "completed"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "run_id": "M2.C03",
+    "call": 1,
+    "model": "M2",
+    "scope": "primary",
+    "included_formal": true,
+    "usage_available": true,
+    "usage": {
+      "prompt_tokens": 1853,
+      "completion_tokens": 13953,
+      "total_tokens": 15806
+    },
+    "reasoning_tokens": null,
+    "cached_tokens": null,
+    "record_status": "completed"
+  }
+]

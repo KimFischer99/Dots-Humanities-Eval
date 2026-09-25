@@ -1,0 +1,9 @@
+# Secrets and mutable local execution state only. Frozen public data is tracked.
+.env
+.env.*
+!.env.example
+.work/
+.work-*/
+__pycache__/
+*.pyc
+.DS_Store
