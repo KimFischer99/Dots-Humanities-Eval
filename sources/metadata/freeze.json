@@ -2,10 +2,10 @@
   "frozen_at": "2026-09-25T07:25:04.343877+00:00",
   "reviewer": "Anoki",
   "hashes": {
-    "dataset.json": "e1d73fb4470f3649bed2d243b08ec30b4e3c39fd6c57f646dc5e2754115a0a4a",
+    "dataset.json": "af03570ab46d31ac0d3dd1ca80ea69459c3d9c4c5fc4ac7f6c09b8a2e236484f",
     "rubric.json": "7671cae32dab92941032174daeda7bddd597ead9d11c3cc6084113fd15cfc9b6",
     "SKILL.md": "9dbe65b1d2ecae269e64ca0b08b4c470ca64eac4a9118f93eeb8a9fd63dbc53e",
-    "config.json": "652a4c80ca0c83715c30c08c1417ef7c0af427f633b673cf66e8994b7bdef4fa",
+    "config.json": "637add769d1cdbafd92edad24eaa8884da3760d4fd4b15cad56dad86e5dddfcb",
     "eval.py": "4115664a6170648bc577210bb9aaa5925e36cf7626d556d91c821b256ac36202",
     "runtime.py": "b654b8f53f542b113c02dedce2b28da1d981393173e124f3799c2f20bb36e738",
     "Dockerfile": "f361457bbf73324a24f8ee3f89a4cfb1b8f71bb13745ef8984135765aaf3749b"
