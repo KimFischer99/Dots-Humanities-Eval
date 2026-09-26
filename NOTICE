@@ -8,4 +8,10 @@ production and self-iteration; separate evaluator-only references and provenance
 SKILL.md is modified/adapted, not the unmodified upstream skill.
 This notice and LICENSE are distribution metadata; never inject them into prompts.
 Source literary texts are supplied by the user and are NOT relicensed by this file.
+Source texts are user-supplied licensed adaptation material, used here for
+non-commercial research and evaluation demonstration only. Copyright remains with
+the original authors and translators; the repository LICENSE covers the package
+code and documentation, not these source texts. Per-source public redistribution
+status is recorded in the dataset as public_text_permission and is treated as not
+authorized until confirmed.
 Pi is a separate MIT-licensed runtime; retain its bundled license when building.
