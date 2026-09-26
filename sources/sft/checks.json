@@ -66,7 +66,9 @@
       "maximum_line_characters": 13,
       "action_beats": 27,
       "basis": "extracted from 参商尘缘录 v3 第29集第1场 (source-aligned, not generated)",
-      "known_gap": "/scenes/0/flow/19 为不可见心理说明，与输出契约冲突，H 检查不覆盖；待用户决定"
+      "known_gap": "/scenes/0/flow/19 为不可见心理说明，与输出契约冲突，H 检查不覆盖；待用户决定",
+      "in_export_set": false,
+      "export_set_rule": "export_final 要求 sft.jsonl 恰好 2 条且基于本轮 runs；本条不并入"
     }
   }
 }
