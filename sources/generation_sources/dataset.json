@@ -1,6 +1,6 @@
 {
-  "version": "3.1",
-  "status": "expert_review_required",
+  "version": "3.3",
+  "status": "reviewed",
   "sources": {
     "KAF": {
       "id": "KAF",
@@ -346,11 +346,11 @@
     }
   ],
   "notes": [
-    "sources.original_utf8保存当前用户确认的校订底本；各取段保持连续，不混用外部文本。校订前dataset已封存，逐项勘误见私有SOURCE_TEXT_REVIEW.md执行记录。",
+    "sources.original_utf8保存用户确认的校订底本；各取段保持连续，不混用外部文本。本版为3.3，材料经人工复核后标记为 reviewed，逐项勘误见 SOURCE_TEXT_REVIEW.md 执行记录。",
     "书目为用户提供，不等于本包核验了纸本版本或公开授权。",
     "不将短篇、古文与英文的字符数当作相同信息量。",
     "本轮按用户批注执行RED三项、KAF一项、HAM_ZH选段外两项校订；其余六项指定保留。archive_sha256仍标识原接收ZIP，不能当作校订文本的哈希。",
-    "当前输入仅含原文及通用实验条件；已删除全部预设人物、场景、改编解读、参考卡和预期答案。出处仅供Codex收尾审计。"
+    "当前输入仅含原文及通用实验条件；已删除全部预设人物、场景、改编解读、参考卡和预期答案。出处仅用于核验与审计。"
   ],
   "archive_sha256": "b220a7707ce41470d1d4e10c2c166bc663e65f89e2e17cdf55da9b573833396b"
 }
