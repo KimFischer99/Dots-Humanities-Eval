@@ -32,4 +32,8 @@ mkdir -p "$TMPDIR"
 python3 -m unittest -q test_eval.py
 ~~~
 
-运行代码与流程见 [runbook/](runbook/)，冻结数据、实测记录和原生成源码见 [sources/](sources/)。代码许可不自动覆盖第三方原文；出处与授权范围记录在 [sources/scope.json](sources/scope.json)。新实验应遵循复用流程中的数据、运行授权及费用边界。
+运行代码与流程见 [runbook/](runbook/)，冻结数据、实测记录和原生成源码见 [sources/](sources/)。代码许可不自动覆盖第三方原文。新实验应遵循复用流程中的数据、运行授权及费用边界。
+
+## 来源与使用声明
+
+本仓库涉及的来源文学作品为用户提供的授权改编材料，仅用于非商业的研究与测评演示；著作权归原作者与译者所有。仓库 LICENSE 仅覆盖自有代码与文档，不覆盖这些来源正文。数据集中各来源的 `public_text_permission` 字段记录公开再发布授权状态，未确认前一律按未授权处理，公开托管不等于取得再发布许可。
