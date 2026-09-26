@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "scope": "SFT-only; no historical repository replay",
+  "scope": "SFT-only; final two-example public set; source provenance excluded",
   "checks": {
     "SFT-ORIG-01": {
       "H": 20,
@@ -10,20 +10,17 @@
       "H3": true,
       "H4": true,
       "H5": true,
-      "estimated_seconds": 34.0,
-      "line_characters": 63,
+      "estimated_seconds": 71.055556,
+      "target_seconds": 70,
+      "line_characters": 16,
       "line_lengths": [
-        5,
-        11,
-        14,
-        11,
-        12,
-        10
+        3,
+        13
       ],
-      "maximum_line_characters": 14,
-      "action_beats": 8,
-      "target_sha256": "86b0eea2aea1e3919d8ec31a64540f129816c366a9f48fc7af6e24fa133c9edb",
-      "input_sha256": "d34383aea318a16433083d0a8f4250aa78b401ddabc952da0e2fb249e48471d2"
+      "maximum_line_characters": 13,
+      "action_beats": 27,
+      "target_sha256": "c37220e5138ebf6219b24d3080998930fb5bd917e725db48b4a561406ff14b75",
+      "input_sha256": "993d240444c66991efb111746af550e05bf5164254df888d7d16839b73cc8f13"
     },
     "SFT-ORIG-02": {
       "H": 20,
@@ -33,20 +30,21 @@
       "H3": true,
       "H4": true,
       "H5": true,
-      "estimated_seconds": 34.833333,
-      "line_characters": 78,
+      "estimated_seconds": 30.111111,
+      "target_seconds": 35,
+      "line_characters": 68,
       "line_lengths": [
-        7,
-        18,
-        12,
+        16,
+        6,
+        16,
+        6,
         14,
-        14,
-        13
+        10
       ],
-      "maximum_line_characters": 18,
-      "action_beats": 7,
-      "target_sha256": "2512c90a49b6768a8085389c81f8aa4db091b7de353225406e1a84af79eb7e1b",
-      "input_sha256": "e6435ae1f413df14c9db98c43a2a569c3d6d9c59efd422aff724aedc3a1e973b"
+      "maximum_line_characters": 16,
+      "action_beats": 6,
+      "target_sha256": "6bb64feceaf3fa29eacc745bffb734ab7ef942a79becfb2d75ccbc6862256477",
+      "input_sha256": "cd8a84a8ec7e0feafdecab8030eeb20e1e4c78e6a5ef3613d843b95ce02487a8"
     }
   }
 }
