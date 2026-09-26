@@ -1,21 +1,21 @@
 {
   "amended_at": "2026-09-25T12:43:57.983344+00:00",
   "purpose": "Expand blind human and Judge review to the same stratified random 15 Primary outputs; score only those outputs.",
-  "parent_freeze_sha256": "afbd6b739a32d8a233b9af43c7fdeb729a113c225e2e2524ad659a1e926dc18a",
+  "parent_freeze_sha256": "6cba3d02a5bf2f33095e6521e7a6d15e5d3e64b32dd2bea807e31d174c2f3cbb",
   "parent_hashes": {
-    "dataset.json": "e1d73fb4470f3649bed2d243b08ec30b4e3c39fd6c57f646dc5e2754115a0a4a",
+    "dataset.json": "af03570ab46d31ac0d3dd1ca80ea69459c3d9c4c5fc4ac7f6c09b8a2e236484f",
     "rubric.json": "7671cae32dab92941032174daeda7bddd597ead9d11c3cc6084113fd15cfc9b6",
     "SKILL.md": "9dbe65b1d2ecae269e64ca0b08b4c470ca64eac4a9118f93eeb8a9fd63dbc53e",
-    "config.json": "652a4c80ca0c83715c30c08c1417ef7c0af427f633b673cf66e8994b7bdef4fa",
+    "config.json": "637add769d1cdbafd92edad24eaa8884da3760d4fd4b15cad56dad86e5dddfcb",
     "eval.py": "4115664a6170648bc577210bb9aaa5925e36cf7626d556d91c821b256ac36202",
     "runtime.py": "b654b8f53f542b113c02dedce2b28da1d981393173e124f3799c2f20bb36e738",
     "Dockerfile": "f361457bbf73324a24f8ee3f89a4cfb1b8f71bb13745ef8984135765aaf3749b"
   },
   "amended_hashes": {
-    "dataset.json": "e1d73fb4470f3649bed2d243b08ec30b4e3c39fd6c57f646dc5e2754115a0a4a",
+    "dataset.json": "af03570ab46d31ac0d3dd1ca80ea69459c3d9c4c5fc4ac7f6c09b8a2e236484f",
     "rubric.json": "7671cae32dab92941032174daeda7bddd597ead9d11c3cc6084113fd15cfc9b6",
     "SKILL.md": "9dbe65b1d2ecae269e64ca0b08b4c470ca64eac4a9118f93eeb8a9fd63dbc53e",
-    "config.json": "652a4c80ca0c83715c30c08c1417ef7c0af427f633b673cf66e8994b7bdef4fa",
+    "config.json": "637add769d1cdbafd92edad24eaa8884da3760d4fd4b15cad56dad86e5dddfcb",
     "eval.py": "993612961d6ccd5c641d2d514db3fd858a5fa9e4029ef60af38075dd2023e5b7",
     "runtime.py": "72aeb844e9f5ab1010487c5bd28851c808d74313ec002a0c65f8c18296e73d68",
     "Dockerfile": "f361457bbf73324a24f8ee3f89a4cfb1b8f71bb13745ef8984135765aaf3749b"
@@ -28,5 +28,10 @@
   "restart_authorization": "User requested serial single-case single-request Judge restart with doubled time limit.",
   "previous_judge_hash": "b303fe717cfbe0a7e23be2d7accf94c030e4e648baebe816524f946bcf0f0e7c",
   "judge_hash": "9208fde1645ea9fe55a18b10703cb850ba5f097a8ced2d3ccfce008ff6ce35fd",
-  "judge_contract": "scores-only-v1"
+  "judge_contract": "scores-only-v1",
+  "dataset_label_revision": {
+    "at": "2026-09-26T02:45:08+00:00",
+    "change": "dataset.json version 3.1→3.3、status expert_review_required→reviewed、notes 第1与第5项措辞；config.json version 3.0→3.3；材料正文与 selection 未动",
+    "approved_by": "user"
+  }
 }
