@@ -47,6 +47,26 @@
       "action_beats": 7,
       "target_sha256": "2512c90a49b6768a8085389c81f8aa4db091b7de353225406e1a84af79eb7e1b",
       "input_sha256": "e6435ae1f413df14c9db98c43a2a569c3d6d9c59efd422aff724aedc3a1e973b"
+    },
+    "SFT-V3-01": {
+      "H": 20,
+      "hard_pass": true,
+      "H1": true,
+      "H2": true,
+      "H3": true,
+      "H4": true,
+      "H5": true,
+      "estimated_seconds": 71.055556,
+      "target_seconds": 70,
+      "line_characters": 16,
+      "line_lengths": [
+        3,
+        13
+      ],
+      "maximum_line_characters": 13,
+      "action_beats": 27,
+      "basis": "extracted from 参商尘缘录 v3 第29集第1场 (source-aligned, not generated)",
+      "known_gap": "/scenes/0/flow/19 为不可见心理说明，与输出契约冲突，H 检查不覆盖；待用户决定"
     }
   }
 }
